@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default Jumbotron = () => {
-  return <p>I am jumbotron</p>;
-};
+export default function Jumbotron() {
+  return <p>I am the jumbotron!</p>;
+}
