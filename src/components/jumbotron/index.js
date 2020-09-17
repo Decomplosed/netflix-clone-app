@@ -6,7 +6,7 @@ export default function Jumbotron({
   direction = 'row',
   ...restProps
 }) {
-  return <Inner direction={direction}>I am the jumbotron!</Inner>;
+  return <Inner direction={direction}>{children}}</Inner>;
 }
 
 Jumbotron.Container = function JumbotronContainer({ children, ...restProps }) {
