@@ -10,7 +10,6 @@ export default function App() {
           <Jumbotron.Title>{item.title}</Jumbotron.Title>
           <Jumbotron.SubTitle>{item.subTitle}</Jumbotron.SubTitle>
           <Jumbotron.Image src={item.image} alt={item.alt} />
-          <p>{item.alt}</p>
         </Jumbotron>
       ))}
     </Jumbotron.Container>
