@@ -4,5 +4,6 @@ import Jumbotron from './components/jumbotron';
 
 export default function App() {
   return <Jumbotron.Container>{jumboData.map(item => (
+    <Jumbotron></Jumbotron>
   ))}</Jumbotron.Container>;
 }
