@@ -3,5 +3,5 @@ import jumboData from './fixtures/jumbo.json';
 import Jumbotron from './components/jumbotron';
 
 export default function App() {
-  return <Jumbotron />;
+  return <Jumbotron.Container></Jumbotron.Container>;
 }
