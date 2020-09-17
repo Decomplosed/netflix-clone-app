@@ -8,3 +8,8 @@ export default function Jumbotron({
 }) {
   return <Inner direction={direction}>I am the jumbotron!</Inner>;
 }
+
+Jumbotron.Container = function JumbotronContainer({
+  children,
+  ...restProps
+}) {};
