@@ -3,7 +3,13 @@ import jumboData from './fixtures/jumbo.json';
 import Jumbotron from './components/jumbotron';
 
 export default function App() {
-  return <Jumbotron.Container>{jumboData.map(item => (
-    <Jumbotron key={item.id}></Jumbotron>
-  ))}</Jumbotron.Container>;
+  return (
+    <Jumbotron.Container>
+      {jumboData.map((item) => (
+        <Jumbotron key={item.id} direction={item.direction}>
+          <p>Hello</p>
+        </Jumbotron>
+      ))}
+    </Jumbotron.Container>
+  );
 }
