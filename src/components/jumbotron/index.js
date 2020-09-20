@@ -13,6 +13,10 @@ Jumbotron.Container = function JumbotronContainer({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 };
 
-Jumbotron.Pane = function JumbotronContainer({ children, ...restProps }) {
+Jumbotron.Pane = function JumbotronPane({ children, ...restProps }) {
   return <Pane {...restProps}>{children}</Pane>;
+};
+
+Jumbotron.Title = function JumbotronTitle({ children, ...restProps }) {
+  return <Title {...restProps}>{children}</Title>;
 };
