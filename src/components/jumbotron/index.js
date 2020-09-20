@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Inner, Pane, Title } from './styles/jumbotron';
+import { Container, Inner, Pane, Title, SubTitle } from './styles/jumbotron';
 
 export default function Jumbotron({
   children,
