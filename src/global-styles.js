@@ -8,4 +8,4 @@ export const GlobalStyles = createGlobalStyle`
   background-color: #000000;
   color: #333333;
   font-size: 16px;
-  `;
+  }`;
