@@ -6,6 +6,7 @@ import {
   Title,
   SubTitle,
   Image,
+  Item
 } from './styles/jumbotron';
 
 export default function Jumbotron({
