@@ -25,3 +25,10 @@ export const Row = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 `;
+
+export const Link = styled.a`
+  color: #757575;
+  margin-bottom: 20px;
+  font-size: 13px;
+  text-decoration: none;
+`;
