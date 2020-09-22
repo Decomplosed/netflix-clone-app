@@ -38,3 +38,9 @@ export const Title = styled.p`
   color: #757575;
   margin-bottom: 40px;
 `;
+
+export const Text = styled.p`
+  font-size: 13px;
+  color: #757575;
+  margin-bottom: 40px;
+`;
