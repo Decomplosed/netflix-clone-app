@@ -6,6 +6,9 @@ export function FooterContainer() {
     <Footer>
       <Footer.Title>Questions? Contact us.</Footer.Title>
       <Footer.Break />
+      <Footer.Row>
+        
+      </Footer.Row>
     </Footer>
   );
 }
