@@ -10,3 +10,9 @@ export const Container = styled.div`
     padding: 70px 30px;
   }
 `;
+
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+`;
