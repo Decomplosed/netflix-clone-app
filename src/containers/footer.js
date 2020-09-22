@@ -7,8 +7,8 @@ export function FooterContainer() {
       <Footer.Title>Questions? Contact us.</Footer.Title>
       <Footer.Break />
       <Footer.Row>
-        
+        <Footer.Column></Footer.Column>
       </Footer.Row>
-    </Footer>
+    </Footer.Column>
   );
 }
