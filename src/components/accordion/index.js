@@ -8,4 +8,6 @@ export default function Accordion({ children, ...restProps }) {
   );
 }
 
-Accordion.Title = function AccordionTitle({ children, ...restProps }) {};
+Accordion.Title = function AccordionTitle({ children, ...restProps }) {
+  return <Title {...restProps}>{children}</Title>;
+};
