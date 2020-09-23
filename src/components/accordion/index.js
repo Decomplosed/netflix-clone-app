@@ -1,5 +1,9 @@
 import React from 'react';
 
 export default function Accordion({ children, ...restProps }) {
-  return <Container {...restProps}></Container>;
+  return (
+    <Container {...restProps}>
+      <Inner></Inner>
+    </Container>
+  );
 }
