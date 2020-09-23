@@ -8,4 +8,4 @@ export default function Accordion({ children, ...restProps }) {
   );
 }
 
-Accordion.Title = function AccordionTitle() {};
+Accordion.Title = function AccordionTitle({ children, ...restProps }) {};
