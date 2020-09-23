@@ -7,3 +7,5 @@ export default function Accordion({ children, ...restProps }) {
     </Container>
   );
 }
+
+Accordion.Title = function AccordionTitle() {};
