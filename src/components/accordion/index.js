@@ -3,7 +3,7 @@ import React from 'react';
 export default function Accordion({ children, ...restProps }) {
   return (
     <Container {...restProps}>
-      <Inner></Inner>
+      <Inner>{children}</Inner>
     </Container>
   );
 }
