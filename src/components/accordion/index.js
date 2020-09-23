@@ -16,3 +16,7 @@ Accordion.Title = function AccordionTitle({ children, ...restProps }) {
 Accordion.Frame = function AccordionFrame({ children, ...restProps }) {
   return <Frame {...restProps}>{children}</Frame>;
 };
+
+Accordion.Item = function AccordionItem({ children, ...restProps }) {
+  return <Item {...restProps}>{children}</Item>;
+};
