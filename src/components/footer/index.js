@@ -24,3 +24,7 @@ Footer.Title = function FooterTitle({ children, ...restProps }) {
 Footer.Text = function FooterText({ children, ...restProps }) {
   return <Text {...restProps}>{children}</Text>;
 };
+
+Footer.Break = function FooterBreak({ ...restProps }) {
+  return <Break {...restProps} />;
+};
