@@ -1,3 +1,5 @@
 import React from 'react';
 
-export default function Accordion({ children, ...restProps }) {}
+export default function Accordion({ children, ...restProps }) {
+  return <Container></Container>;
+}
