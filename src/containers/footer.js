@@ -11,6 +11,6 @@ export function FooterContainer() {
           <Footer.Link></Footer.Link>
         </Footer.Column>
       </Footer.Row>
-    </Footer.Column>
+    </Footer>
   );
 }
