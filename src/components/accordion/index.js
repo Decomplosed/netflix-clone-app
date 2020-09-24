@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { Container, Inner, Title, Frame, Item } from './styles/accordion';
+import {
+  Container,
+  Inner,
+  Title,
+  Frame,
+  Item,
+  Header,
+} from './styles/accordion';
 
 export default function Accordion({ children, ...restProps }) {
   return (
