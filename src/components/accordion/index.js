@@ -30,5 +30,9 @@ Accordion.Item = function AccordionItem({ children, ...restProps }) {
 };
 
 Accordion.Header = function AccordionHeader({ children, ...restProps }) {
-  return <Header onClick={} {...restProps}>{children}</Header>;
+  return (
+    <Header onClick={() => setToggle()} {...restProps}>
+      {children}
+    </Header>
+  );
 };
