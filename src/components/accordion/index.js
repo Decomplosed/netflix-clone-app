@@ -21,3 +21,7 @@ Accordion.Item = function AccordionItem({ children, ...restProps }) {
   const [toggleShow, setToggleShow] = useState(false);
   return <Item {...restProps}>{children}</Item>;
 };
+
+Accordion.Header = function AccordionHeader({ children, ...restProps }) {
+  return <Header {...restProps}>{children}</Header>;
+};
