@@ -8,6 +8,8 @@ import {
   Header,
 } from './styles/accordion';
 
+const ToggleContext = createContext()
+
 export default function Accordion({ children, ...restProps }) {
   return (
     <Container {...restProps}>
