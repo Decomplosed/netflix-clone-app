@@ -23,5 +23,5 @@ Accordion.Item = function AccordionItem({ children, ...restProps }) {
 };
 
 Accordion.Header = function AccordionHeader({ children, ...restProps }) {
-  return <Header {...restProps}>{children}</Header>;
+  return <Header onClick={} {...restProps}>{children}</Header>;
 };
