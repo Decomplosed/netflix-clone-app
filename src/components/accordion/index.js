@@ -44,4 +44,6 @@ Accordion.Header = function AccordionHeader({ children, ...restProps }) {
   );
 };
 
-Accordion.Body = function AccordionBody({ children, ...restProps }) {};
+Accordion.Body = function AccordionBody({ children, ...restProps }) {
+  const { toggleShow } = useContext(ToggleContext);
+};
