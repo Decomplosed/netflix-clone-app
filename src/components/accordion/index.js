@@ -43,3 +43,5 @@ Accordion.Header = function AccordionHeader({ children, ...restProps }) {
     </Header>
   );
 };
+
+Accordion.Body = function AccordionBody({ children, ...restProps }) {};
