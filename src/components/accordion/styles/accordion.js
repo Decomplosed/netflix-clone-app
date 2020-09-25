@@ -51,4 +51,11 @@ export const Header = styled.div`
   padding: 0.8em 1.2em 0.8em 1.2em;
   user-select: none;
   align-items: center;
+  img {
+    filter: brightness(0) invert(1);
+    width: 24px;
+    @media (max-width: 600px) {
+      width: 16px;
+    }
+  }
 `;
