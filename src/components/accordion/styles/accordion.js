@@ -28,3 +28,11 @@ export const Title = styled.h1`
     font-size: 35px;
   }
 `;
+
+export const Item = styled.div`
+  color: white;
+  margin-bottom: 10px;
+  margin: auto;
+  max-width: 670px;
+  width: 100%;
+`;
