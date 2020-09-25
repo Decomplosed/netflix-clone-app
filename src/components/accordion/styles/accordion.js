@@ -35,4 +35,7 @@ export const Item = styled.div`
   margin: auto;
   max-width: 670px;
   width: 100%;
+  &:first-of-type {
+    margin-top: 3em;
+  }
 `;
