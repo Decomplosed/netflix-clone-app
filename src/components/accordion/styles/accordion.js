@@ -39,3 +39,16 @@ export const Item = styled.div`
     margin-top: 3em;
   }
 `;
+
+export const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 1px;
+  font-size: 26px;
+  font-weight: normal;
+  background: #303030;
+  padding: 0.8em 1.2em 0.8em 1.2em;
+  user-select: none;
+  align-items: center;
+`;
