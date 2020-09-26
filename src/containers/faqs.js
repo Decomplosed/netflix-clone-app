@@ -5,7 +5,7 @@ import faqsData from '../fixtures/faqs.json';
 export function FaqsContainer() {
   return (
     <Accordion>
-      
+      <Accordion.Title></Accordion.Title>
     </Accordion>
   );
 }
