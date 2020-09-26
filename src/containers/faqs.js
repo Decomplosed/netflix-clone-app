@@ -5,7 +5,10 @@ import faqsData from '../fixtures/faqs.json';
 export function FaqsContainer() {
   return (
     <Accordion>
-      <Accordion.Title></Accordion.Title>
+      <Accordion.Title>Frequently Asked Questions</Accordion.Title>
+      {faqsData.map((item) => (
+        <Accordion.Item></Accordion.Item>
+      ))}
     </Accordion>
   );
 }
