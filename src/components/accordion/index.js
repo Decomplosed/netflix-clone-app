@@ -41,6 +41,7 @@ Accordion.Header = function AccordionHeader({ children, ...restProps }) {
   return (
     <Header onClick={() => setToggleShow(!toggleShow)} {...restProps}>
       {children}
+      {toggleShow ? }
     </Header>
   );
 };
