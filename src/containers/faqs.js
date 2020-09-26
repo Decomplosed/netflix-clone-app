@@ -7,7 +7,9 @@ export function FaqsContainer() {
     <Accordion>
       <Accordion.Title>Frequently Asked Questions</Accordion.Title>
       {faqsData.map((item) => (
-        <Accordion.Item></Accordion.Item>
+        <Accordion.Item>
+          <Accordion.Header></Accordion.Header>
+        </Accordion.Item>
       ))}
     </Accordion>
   );
