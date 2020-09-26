@@ -73,4 +73,8 @@ export const Body = styled.div`
   padding: 0.8em 2.2em 0.8em 1.2em;
   white-space: pre-wrap;
   user-select: none;
+  @media (max-width: 600px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
 `;
