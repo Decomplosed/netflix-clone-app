@@ -9,5 +9,5 @@ OptForm.Input = function OptFormInput({ ...restProps }) {
 };
 
 OptForm.Button = function OptFormButton({ children, ...restProps }) {
-  return <Button {...restProps}></Button>;
+  return <Button {...restProps}>{children}</Button>;
 };
