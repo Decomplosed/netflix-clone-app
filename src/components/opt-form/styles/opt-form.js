@@ -5,4 +5,5 @@ export default function OptForm({ children, ...restProps }) {
 }
 
 OptForm.Input = function OptFormInput({ ...restProps }) {
+  return <Input {...restProps} />;
 };
