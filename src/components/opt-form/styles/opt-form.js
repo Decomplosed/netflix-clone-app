@@ -20,3 +20,8 @@ export const Input = styled.input`
   height: 70px;
   box-sizing: border-box;
 `;
+
+export const Break = styled.div`
+  flex-basis: 100%;
+  height: 0;
+`;
