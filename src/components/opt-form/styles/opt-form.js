@@ -49,4 +49,10 @@ export const Button = styled.button`
   &:hover {
     background: #f40612;
   }
+  @media (max-width: 1000px) {
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
 `;
