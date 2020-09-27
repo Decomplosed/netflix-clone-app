@@ -46,4 +46,7 @@ export const Button = styled.button`
       width: 16px;
     }
   }
+  &:hover {
+    background: #f40612;
+  }
 `;
