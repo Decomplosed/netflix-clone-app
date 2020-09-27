@@ -13,6 +13,10 @@ export function FaqsContainer() {
         </Accordion.Item>
       ))}
       <Accordion.Item />
+
+      <OptForm>
+        <OptForm.Input placeholder='Email address' />
+      </OptForm>
     </Accordion>
   );
 }
