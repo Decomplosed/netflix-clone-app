@@ -56,3 +56,9 @@ export const Button = styled.button`
     font-weight: bold;
   }
 `;
+
+export const Text = styled.p`
+  font-size: 19.2px;
+  color: white;
+  text-align: center;
+`;
