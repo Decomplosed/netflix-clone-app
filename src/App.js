@@ -9,9 +9,6 @@ export default function App() {
   return (
     <Router>
       <Route exact path={ROUTES.HOME}>
-        <JumbotronContainer />
-        <FaqsContainer />
-        <FooterContainer />
       </Route>
     </Router>
   );
