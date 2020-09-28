@@ -8,9 +8,11 @@ import * as ROUTES from './constants/routes';
 export default function App() {
   return (
     <Router>
-      <JumbotronContainer />
-      <FaqsContainer />
-      <FooterContainer />
+      <Route exact path={ROUTES.HOME}>
+        <JumbotronContainer />
+        <FaqsContainer />
+        <FooterContainer />
+      </Route>
     </Router>
   );
 }
