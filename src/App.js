@@ -7,10 +7,10 @@ import * as ROUTES from './constants/routes';
 
 export default function App() {
   return (
-    <>
+    <Router>
       <JumbotronContainer />
       <FaqsContainer />
       <FooterContainer />
-    </>
+    </Router>
   );
 }
