@@ -27,3 +27,11 @@ export const Container = styled.div`
     margin: 0 30px;
   }
 `;
+
+export const Link = styled.p`
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: ${({ active }) => (active === 'true' ? '700' : 'normal')};
+  cursor: pointer;
+`;
