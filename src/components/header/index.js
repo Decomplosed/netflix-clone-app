@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link as ReactRouterLink } from 'react';
+import { Link as ReactRouterLink } from 'react-router-dom';
 
 export default function Header({ bg = true, children, ...restProps }) {
   return bg ? <Background {...restProps}>{children}</Background> : children;
