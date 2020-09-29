@@ -12,3 +12,12 @@ export const Background = styled.div`
       dontShowOnSmallViewPort && `background: none;`}
   }
 `;
+
+export const Container = styled.div`
+  display: flex;
+  margin: 0 56px;
+  height: 64px;
+  padding: 18px 0;
+  justify-content: space-between;
+  align-items: center;
+`;
