@@ -37,4 +37,7 @@ export const Link = styled.p`
   &:hover {
     font-weight: bold;
   }
+  &:last-of-type {
+    margin-right: 0;
+  }
 `;
