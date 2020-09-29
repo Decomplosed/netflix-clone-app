@@ -53,3 +53,9 @@ export const Text = styled.p`
   line-height: normal;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
 `;
+
+export const Logo = styled.img`
+  height: 32px;
+  width: 108px;
+  margin-right: 40px;
+`;
