@@ -8,6 +8,6 @@ export default function HeaderContainer() {
         <Header.Logo />
         <Header.Button />
       </Header.Frame>
-    </Header.Logo>
+    </Header>
   );
 }
