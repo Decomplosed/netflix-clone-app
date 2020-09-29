@@ -9,6 +9,9 @@ export default function App() {
       <Route exact path={ROUTES.HOME}>
         <Home />
       </Route>
+      <Route exact path={ROUTES.BROWSE}>
+        <Browse />
+      </Route>
     </Router>
   );
 }
