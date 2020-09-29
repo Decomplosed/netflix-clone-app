@@ -12,6 +12,9 @@ export default function App() {
       <Route exact path={ROUTES.BROWSE}>
         <Browse />
       </Route>
+      <Route exact path={ROUTES.SIGN_IN}>
+        <Signin />
+      </Route>
     </Router>
   );
 }
