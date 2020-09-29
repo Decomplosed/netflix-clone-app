@@ -34,4 +34,7 @@ export const Link = styled.p`
   margin-right: 30px;
   font-weight: ${({ active }) => (active === 'true' ? '700' : 'normal')};
   cursor: pointer;
+  &:hover {
+    font-weight: bold;
+  }
 `;
