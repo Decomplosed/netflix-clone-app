@@ -20,4 +20,7 @@ export const Container = styled.div`
   padding: 18px 0;
   justify-content: space-between;
   align-items: center;
+  a {
+    display: flex;
+  }
 `;
