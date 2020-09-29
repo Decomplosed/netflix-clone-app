@@ -41,3 +41,8 @@ export const Link = styled.p`
     margin-right: 0;
   }
 `;
+
+export const Group = styled.div`
+  display: flex;
+  align-items: center;
+`;
