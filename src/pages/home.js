@@ -9,6 +9,9 @@ export default function Home() {
   return (
     <>
       <HeaderContainer>
+        <Feature>
+          
+        </Feature>
         <OptForm>
           <OptForm.Input placeholder='Email address' />
           <OptForm.Button>Try it now</OptForm.Button>
