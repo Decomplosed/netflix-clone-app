@@ -77,4 +77,7 @@ export const ButtonLink = styled(ReachRouterLink)`
   cursor: pointer;
   text-decoration: none;
   box-sizing: border-box;
+  &:hover {
+    background: #f40612;
+  }
 `;
