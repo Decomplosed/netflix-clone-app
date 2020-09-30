@@ -10,7 +10,9 @@ export default function Home() {
     <>
       <HeaderContainer>
         <Feature>
-          <Feature.Title></Feature.Title>
+          <Feature.Title>
+            Unlimited films, TV programmes and more.
+          </Feature.Title>
         </Feature>
         <OptForm>
           <OptForm.Input placeholder='Email address' />
