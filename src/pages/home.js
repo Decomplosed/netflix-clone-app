@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <HeaderContainer>
         <Feature>
-          
+          <Feature.Title></Feature.Title>
         </Feature>
         <OptForm>
           <OptForm.Input placeholder='Email address' />
