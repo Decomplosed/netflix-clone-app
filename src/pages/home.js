@@ -1,5 +1,5 @@
 import React from 'react';
-import { OptForm } from '../components';
+import { OptForm, Feature } from '../components';
 import { HeaderContainer } from '../containers/header';
 import { JumbotronContainer } from '../containers/jumbotron';
 import { FooterContainer } from '../containers/footer';
