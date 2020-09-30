@@ -7,11 +7,10 @@ import { FaqsContainer } from '../containers/faqs';
 export default function Home() {
   return (
     <>
-      <HeaderContainer>
-        <JumbotronContainer />
-        <FaqsContainer />
-        <FooterContainer />
-      </HeaderContainer>
+      <HeaderContainer></HeaderContainer>
+      <JumbotronContainer />
+      <FaqsContainer />
+      <FooterContainer />
     </>
   );
 }
