@@ -65,7 +65,7 @@ export const Logo = styled.img`
   }
 `;
 
-export const ButtonLink = styled(ReachRouterLink)`
+export const ButtonLink = styled(ReactRouterLink)`
   display: block;
   background-color: #e50914;
   width: 84px;
