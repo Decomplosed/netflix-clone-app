@@ -7,8 +7,10 @@ import { firebase } from './lib/firebase.prod';
 
 render(
   <>
-    <GlobalStyles />
-    <App />
+    <FirebaseContext.Provider>
+      <GlobalStyles />
+      <App />
+    </FirebaseContext.Provider>
   </>,
   document.getElementById('root'),
 );
