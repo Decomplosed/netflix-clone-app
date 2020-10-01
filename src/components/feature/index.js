@@ -8,3 +8,5 @@ export default function Feature({ children, ...restProps }) {
 Feature.Title = function FeatureTitle({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>;
 };
+
+Feature.SubTitle = function FeatureSubTitle({ children, ...restProps }) {};
