@@ -18,3 +18,10 @@ export const Title = styled.h1`
     font-size: 35px;
   }
 `;
+
+export const SubTitle = styled.h2`
+  color: white;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 16px auto;
+`;
