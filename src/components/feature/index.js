@@ -6,5 +6,5 @@ export default function Feature({ children, ...restProps }) {
 }
 
 Feature.Title = function FeatureTitle({ children, ...restProps }) {
-  return <Title {...restProps}></Title>;
+  return <Title {...restProps}>{children}</Title>;
 };
