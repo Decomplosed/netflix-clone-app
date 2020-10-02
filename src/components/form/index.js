@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   Container,
+  Base,
   Error,
   Title,
   Text,
