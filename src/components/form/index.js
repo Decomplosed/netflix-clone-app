@@ -14,4 +14,6 @@ export default function Form({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 }
 
-Form.Error = function FormError({ children, ...restProps }) {};
+Form.Error = function FormError({ children, ...restProps }) {
+  return <Error {...restProps}>{children}</Error>;
+};
