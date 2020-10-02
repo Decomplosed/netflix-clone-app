@@ -14,3 +14,10 @@ export const Container = styled.div`
   padding: 60px 68px 40px;
   margin-bottom: 100px;
 `;
+
+export const Base = styled.form`
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  width: 100%;
+`;
