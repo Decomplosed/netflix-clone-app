@@ -18,3 +18,7 @@ export default function Form({ children, ...restProps }) {
 Form.Error = function FormError({ children, ...restProps }) {
   return <Error {...restProps}>{children}</Error>;
 };
+
+Form.Title = function FormTitle({ children, ...restProps }) {
+  return <Title {...restProps}>{children}</Title>;
+};
