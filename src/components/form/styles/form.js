@@ -30,3 +30,10 @@ export const Error = styled.div`
   color: white;
   padding: 15px 20px;
 `;
+
+export const Title = styled.h1`
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 28px;
+`;
