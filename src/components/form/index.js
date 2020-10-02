@@ -26,3 +26,7 @@ Form.Error = function FormError({ children, ...restProps }) {
 Form.Title = function FormTitle({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>;
 };
+
+Form.Text = function FormText({ children, ...restProps }) {
+  return <Text {...restProps}>{children}</Text>;
+};
