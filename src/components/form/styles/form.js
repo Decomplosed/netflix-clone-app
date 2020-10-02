@@ -43,3 +43,10 @@ export const Text = styled.p`
   font-size: 16px;
   font-weight: 500;
 `;
+
+export const TextSmall = styled.p`
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: normal;
+  color: #8c8c8c;
+`;
