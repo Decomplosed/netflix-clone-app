@@ -10,7 +10,9 @@ export default function Signin() {
 
   return (
     <>
-      <HeaderContainer></HeaderContainer>
+      <HeaderContainer>
+        <Form></Form>
+      </HeaderContainer>
       <FooterContainer />
     </>
   );
