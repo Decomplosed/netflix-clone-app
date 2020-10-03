@@ -20,8 +20,13 @@ export default function Signin() {
               value={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)}
             />
+            <Form.Input
+              placeholder='Password'
+              value={password}
+              onChange={({ target }) => setPassword(target.value)}
+            />
           </Form.Base>
-        </Form.Input>
+        </Form>
       </HeaderContainer>
       <FooterContainer />
     </>
