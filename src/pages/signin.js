@@ -1,4 +1,5 @@
 import React, { useState, useContext } from 'react';
+import { FirebaseContext } from '../context/firebase';
 import { HeaderContainer } from '../containers/header';
 import { FooterContainer } from '../containers/footer';
 import { Form } from '../components/';
