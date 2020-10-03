@@ -14,7 +14,7 @@ export default function Signin() {
         <Form>
           <Form.Title>Sign In</Form.Title>
           {error && <Form.Error>{error}</Form.Error>}
-          <Form.Base></Form.Base>
+          <Form.Base onSubmit={handleSignin}></Form.Base>
         </Form>
       </HeaderContainer>
       <FooterContainer />
