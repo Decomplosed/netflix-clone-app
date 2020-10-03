@@ -58,3 +58,14 @@ export const Link = styled(ReachRouterLink)`
     text-decoration: underline;
   }
 `;
+
+export const Input = styled.input`
+  background: #333;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+`;
