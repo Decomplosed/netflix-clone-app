@@ -14,8 +14,10 @@ export default function Signin() {
         <Form>
           <Form.Title>Sign In</Form.Title>
           {error && <Form.Error>{error}</Form.Error>}
-          <Form.Base onSubmit={handleSignin} method='POST'></Form.Base>
-        </Form>
+          <Form.Base onSubmit={handleSignin} method='POST'>
+            <Form.Input placeholder='Email address' />
+          </Form.Base>
+        </Form.Input>
       </HeaderContainer>
       <FooterContainer />
     </>
