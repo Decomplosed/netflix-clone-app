@@ -50,3 +50,8 @@ export const TextSmall = styled.p`
   line-height: normal;
   color: #8c8c8c;
 `;
+
+export const Link = styled(ReachRouterLink)`
+  color: #fff;
+  text-decoration: none;
+`;
