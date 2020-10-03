@@ -83,4 +83,7 @@ export const Submit = styled.button`
   border: 0;
   color: white;
   cursor: pointer;
+  &:disabled {
+    opacity: 0.5;
+  }
 `;
