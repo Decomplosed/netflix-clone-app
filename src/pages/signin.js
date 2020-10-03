@@ -15,7 +15,7 @@ export default function Signin() {
           <Form.Title>Sign In</Form.Title>
           {error && <Form.Error>{error}</Form.Error>}
           <Form.Base onSubmit={handleSignin} method='POST'>
-            <Form.Input placeholder='Email address' />
+            <Form.Input placeholder='Email address' value={emailAddress} />
           </Form.Base>
         </Form.Input>
       </HeaderContainer>
