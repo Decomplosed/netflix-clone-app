@@ -13,6 +13,7 @@ export default function Signin() {
       <HeaderContainer>
         <Form>
           <Form.Title>Sign In</Form.Title>
+          {error && <Form.Error>{error}</Form.Error>}
         </Form>
       </HeaderContainer>
       <FooterContainer />
