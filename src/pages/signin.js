@@ -5,7 +5,7 @@ import { Form } from '../components/';
 
 export default function Signin() {
   const [emailAddress, setEmailAddress] = useState('');
-  const [password, setPassword] = useState();
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
   return (
