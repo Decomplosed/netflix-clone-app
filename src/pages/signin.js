@@ -36,6 +36,8 @@ export default function Signin() {
               Sign In
             </Form.Submit>
           </Form.Base>
+
+          <Form.Text>New to Netflix?</Form.Text>
         </Form>
       </HeaderContainer>
       <FooterContainer />
