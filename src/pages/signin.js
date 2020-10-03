@@ -9,6 +9,7 @@ export default function Signin() {
   const [error, setError] = useState('');
 
   const isInvalid = password === '' || emailAddress === '';
+  const handleSignIn = (event) => {};
 
   return (
     <>
@@ -16,7 +17,7 @@ export default function Signin() {
         <Form>
           <Form.Title>Sign In</Form.Title>
           {error && <Form.Error>{error}</Form.Error>}
-          <Form.Base onSubmit={handleSignin} method='POST'>
+          <Form.Base onSubmit={handleSignIn} method='POST'>
             <Form.Input
               placeholder='Email address'
               value={emailAddress}
