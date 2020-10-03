@@ -8,6 +8,8 @@ export default function Signin() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
+  const isInvalid = password === '' || emailAddress === '';
+
   return (
     <>
       <HeaderContainer>
