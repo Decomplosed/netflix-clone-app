@@ -4,6 +4,7 @@ import { FooterContainer } from '../containers/footer';
 import { Form } from '../components/';
 
 export default function Signin() {
+  const [emailAddress, setEmailAddress] = useState('')
   return (
     <>
       <HeaderContainer></HeaderContainer>
