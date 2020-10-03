@@ -54,4 +54,7 @@ export const TextSmall = styled.p`
 export const Link = styled(ReachRouterLink)`
   color: #fff;
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
