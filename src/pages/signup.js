@@ -10,5 +10,7 @@ export default function Signup() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
+  const [firstName, setFirstName] = useState('');
+
   return <p>SIGN UP</p>;
 }
