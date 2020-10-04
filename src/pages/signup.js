@@ -11,6 +11,7 @@ export default function Signup() {
   const { firebase } = useContext(FirebaseContext);
 
   const [firstName, setFirstName] = useState('');
+  const [emailAddress, setEmailAddress] = useState('');
 
   return <p>SIGN UP</p>;
 }
