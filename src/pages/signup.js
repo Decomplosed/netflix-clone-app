@@ -48,6 +48,10 @@ export default function Signup() {
               Sign Up
             </Form.Submit>
           </Form.Base>
+
+          <Form.Text>
+            Already a user? <Form.Link to='/signup'>Sign in now.</Form.Link>
+          </Form.Text>
         </Form>
       </HeaderContainer>
     </>
