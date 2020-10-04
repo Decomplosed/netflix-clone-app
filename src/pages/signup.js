@@ -37,6 +37,13 @@ export default function Signup() {
               value={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)}
             />
+            <Form.Input
+              type='password'
+              placeholder='Password'
+              autoComplete='off'
+              value={password}
+              onChange={({ target }) => setPassword(target.value)}
+            />
           </Form.Base>
         </Form>
       </HeaderContainer>
