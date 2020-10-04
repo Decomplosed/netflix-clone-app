@@ -7,5 +7,7 @@ import { Form } from '../components/';
 import * as ROUTES from '../constants/routes';
 
 export default function Signup() {
+  const history = useHistory();
+
   return <p>SIGN UP</p>;
 }
