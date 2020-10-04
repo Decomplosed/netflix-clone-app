@@ -20,5 +20,13 @@ export default function Signup() {
     event.preventDefault();
   };
 
-  return <HeaderContainer></HeaderContainer>;
+  return (
+    <>
+      <HeaderContainer>
+        <Form>
+          <Form.Title>Sign Up</Form.Title>
+        </Form>
+      </HeaderContainer>
+    </>
+  );
 }
