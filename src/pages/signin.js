@@ -17,7 +17,7 @@ export default function Signin() {
 
     firebase
       .auth()
-      .signInWithEmailAndPassword(emailAddress, address)
+      .signInWithEmailAndPassword(emailAddress, password)
       .then(() => {})
       .catch((error) => {
         setEmailAddress('');
