@@ -19,6 +19,7 @@ export default function Signin() {
       .signInWithEmailAndPassword(emailAddress, address)
       .then(() => {})
       .catch((error) => {
+        setEmailAddress('');
       });
   };
 
