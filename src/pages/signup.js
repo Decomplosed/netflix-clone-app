@@ -58,6 +58,7 @@ export default function Signup() {
           </Form.TextSmall>
         </Form>
       </HeaderContainer>
+      <FooterContainer />
     </>
   );
 }
