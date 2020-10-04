@@ -21,6 +21,7 @@ export default function Signin() {
       .catch((error) => {
         setEmailAddress('');
         setPassword('');
+        setError(error.message);
       });
   };
 
