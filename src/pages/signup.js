@@ -25,6 +25,7 @@ export default function Signup() {
       <HeaderContainer>
         <Form>
           <Form.Title>Sign Up</Form.Title>
+          {error && <Form.Error>{error}</Form.Error>}
         </Form>
       </HeaderContainer>
     </>
