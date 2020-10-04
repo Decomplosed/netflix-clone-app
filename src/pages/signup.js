@@ -26,6 +26,7 @@ export default function Signup() {
         <Form>
           <Form.Title>Sign Up</Form.Title>
           {error && <Form.Error>{error}</Form.Error>}
+          <Form.Base onSubmit={handleSignUp} method='POST'></Form.Base>
         </Form>
       </HeaderContainer>
     </>
