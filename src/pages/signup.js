@@ -33,7 +33,7 @@ export default function Signup() {
               onChange={({ target }) => setFirstName(target.value)}
             />
             <Form.Input
-              placeholder='Email address'
+              placeholder='Email Address'
               value={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)}
             />

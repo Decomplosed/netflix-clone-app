@@ -38,7 +38,7 @@ export default function Signin() {
           {error && <Form.Error>{error}</Form.Error>}
           <Form.Base onSubmit={handleSignIn} method='POST'>
             <Form.Input
-              placeholder='Email address'
+              placeholder='Email Address'
               value={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)}
             />
