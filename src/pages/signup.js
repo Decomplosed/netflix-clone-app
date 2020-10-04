@@ -20,5 +20,5 @@ export default function Signup() {
     event.preventDefault();
   };
 
-  return <p>SIGN UP</p>;
+  return <HeaderContainer></HeaderContainer>;
 }
