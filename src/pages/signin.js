@@ -13,6 +13,8 @@ export default function Signin() {
   const isInvalid = password === '' || emailAddress === '';
   const handleSignIn = (event) => {
     event.preventDefault();
+
+    firebase.auth().signInWithEmailAndPassword(emailAddress, address);
   };
 
   return (
