@@ -18,6 +18,8 @@ export default function Signup() {
   const isInvalid = firstName === '' || password === '' || emailAddress === '';
   const handleSignUp = (event) => {
     event.preventDefault();
+
+    firebase.auth();
   };
 
   return (
