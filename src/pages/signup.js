@@ -13,6 +13,7 @@ export default function Signup() {
   const [firstName, setFirstName] = useState('');
   const [emailAddress, setEmailAddress] = useState('');
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
 
   return <p>SIGN UP</p>;
 }
