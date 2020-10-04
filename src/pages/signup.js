@@ -15,5 +15,7 @@ export default function Signup() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
+  const isInvalid = firstName === '' || password === '' || emailAddress === '';
+
   return <p>SIGN UP</p>;
 }
