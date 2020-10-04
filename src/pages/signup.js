@@ -8,6 +8,7 @@ import * as ROUTES from '../constants/routes';
 
 export default function Signup() {
   const history = useHistory();
+  const { firebase } = useContext(FirebaseContext);
 
   return <p>SIGN UP</p>;
 }
