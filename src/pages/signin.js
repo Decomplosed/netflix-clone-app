@@ -20,6 +20,7 @@ export default function Signin() {
       .then(() => {})
       .catch((error) => {
         setEmailAddress('');
+        setPassword('');
       });
   };
 
