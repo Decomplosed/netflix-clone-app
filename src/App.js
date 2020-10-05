@@ -10,6 +10,7 @@ export default function App() {
   return (
     <Router>
       <Route exact path={ROUTES.SIGN_IN}>
+        <IsUserRedirect user={user}></IsUserRedirect>
         <Signin />
       </Route>
       <Route exact path={ROUTES.SIGN_UP}>
