@@ -36,6 +36,7 @@ export default function Signup() {
         setFirstName('');
         setEmailAddress('');
         setPassword('');
+        setError(error.message);
       });
   };
 
