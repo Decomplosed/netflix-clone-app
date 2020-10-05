@@ -23,10 +23,14 @@ export default function Signup() {
       .auth()
       .createUserWithEmailAndPassword(emailAddress, password)
       .then((result) => {
-        result.user.updateProfile({
-          displayName: firstName,
-          photoURL: Math.floor(Math.random() * 5) + 1,
-        });
+        result.user
+          .updateProfile({
+            displayName: firstName,
+            photoURL: Math.floor(Math.random() * 5) + 1,
+          })
+          .then(() => {
+            history.push(ROUTES.BROWSE);
+          });
       });
   };
 
