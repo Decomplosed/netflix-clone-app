@@ -13,3 +13,5 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest }) {
     />
   );
 }
+
+export function ProtectedRoute() {}
