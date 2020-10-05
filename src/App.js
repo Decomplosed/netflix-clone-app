@@ -13,6 +13,7 @@ export default function App() {
         <IsUserRedirect
           user={user}
           loggedInPath={ROUTES.BROWE}
+          path={ROUTES.SIGN_IN}
         ></IsUserRedirect>
         <Signin />
       </Route>
