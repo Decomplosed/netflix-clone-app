@@ -31,7 +31,8 @@ export default function Signup() {
           .then(() => {
             history.push(ROUTES.BROWSE);
           });
-      });
+      })
+      .catch((error) => {});
   };
 
   return (
