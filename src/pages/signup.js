@@ -32,7 +32,9 @@ export default function Signup() {
             history.push(ROUTES.BROWSE);
           });
       })
-      .catch((error) => {});
+      .catch((error) => {
+        setFirstName('');
+      });
   };
 
   return (
