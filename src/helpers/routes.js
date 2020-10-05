@@ -15,5 +15,5 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest }) {
 }
 
 export function ProtectedRoute({ user, children, ...rest }) {
-  return <Route {...rest} />;
+  return <Route {...rest} render={({ location }) => {}} />;
 }
