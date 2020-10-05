@@ -8,6 +8,7 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest }) {
       render={() => {
         if (!user) return children;
         if (user) return <Redirect to={{ pathname: loggedInPath }} />;
+        return null;
       }}
     />
   );
