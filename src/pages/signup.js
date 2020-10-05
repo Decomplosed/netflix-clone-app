@@ -34,6 +34,7 @@ export default function Signup() {
       })
       .catch((error) => {
         setFirstName('');
+        setEmailAddress('');
       });
   };
 
