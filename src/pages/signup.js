@@ -19,10 +19,10 @@ export default function Signup() {
   const handleSignUp = (event) => {
     event.preventDefault();
 
-    firebase
+    return firebase
       .auth()
       .createUserWithEmailAndPassword(emailAddress, password)
-      .then((result) => {
+      .then((result) =>
         result.user
           .updateProfile({
             displayName: firstName,
@@ -30,8 +30,8 @@ export default function Signup() {
           })
           .then(() => {
             history.push(ROUTES.BROWSE);
-          });
-      })
+          }),
+      )
       .catch((error) => {
         setFirstName('');
         setEmailAddress('');
