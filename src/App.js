@@ -17,9 +17,14 @@ export default function App() {
       >
         <Signin />
       </IsUserRedirect>
-      <Route exact path={ROUTES.SIGN_UP}>
+      <IsUserRedirect
+        user={user}
+        loggedInPath={ROUTES.BROWSE}
+        path={ROUTES.SIGN_UP}
+        exact
+      >
         <Signup />
-      </Route>
+      </IsUserRedirect>
       <Route exact path={ROUTES.HOME}>
         <Home />
       </Route>
