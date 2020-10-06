@@ -28,6 +28,7 @@ export default function App() {
       <Route exact path={ROUTES.HOME}>
         <Home />
       </Route>
+      <ProtectedRoute></ProtectedRoute>
       <Route exact path={ROUTES.BROWSE}>
         <Browse />
       </Route>
