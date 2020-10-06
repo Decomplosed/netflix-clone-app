@@ -11,7 +11,7 @@ export default function useAuthListener() {
   useEffect(() => {
     const listener = firebase.auth().onAuthStateChanged((authUser) => {
       if (authUser) {
-        localStorage.setItem('authUser', JSON.stringify);
+        localStorage.setItem('authUser', JSON.stringify(authUser));
       }
     });
   }, []);
