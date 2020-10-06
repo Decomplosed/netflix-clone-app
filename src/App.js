@@ -28,14 +28,13 @@ export default function App() {
       <ProtectedRoute user={user} path={ROUTES.BROWSE}>
         <Browse />
       </ProtectedRoute>
-      <Route exact path={ROUTES.HOME}>
-        <Home />
-      </Route>
       <IsUserRedirect
         user={user}
         loggedInPath={ROUTES.BROWSE}
         path={ROUTES.HOME}
-      ></IsUserRedirect>
+      >
+        <Home />
+      </IsUserRedirect>
     </Router>
   );
 }
