@@ -25,12 +25,13 @@ export default function App() {
       >
         <Signup />
       </IsUserRedirect>
-      <Route exact path={ROUTES.HOME}>
-        <Home />
-      </Route>
       <ProtectedRoute user={user} path={ROUTES.BROWSE}>
         <Browse />
       </ProtectedRoute>
+      <Route exact path={ROUTES.HOME}>
+        <Home />
+      </Route>
+      <IsUserRedirect user={user}></IsUserRedirect>
     </Router>
   );
 }
