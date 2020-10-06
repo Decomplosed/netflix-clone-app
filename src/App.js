@@ -32,6 +32,7 @@ export default function App() {
         user={user}
         loggedInPath={ROUTES.BROWSE}
         path={ROUTES.HOME}
+        exact
       >
         <Home />
       </IsUserRedirect>
