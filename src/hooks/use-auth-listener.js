@@ -7,4 +7,6 @@ export default function useAuthListener() {
   );
 
   const { firebase } = useContext(FirebaseContext);
+
+  useEffect(() => {}, [])
 }
