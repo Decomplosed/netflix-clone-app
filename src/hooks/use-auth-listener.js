@@ -15,6 +15,7 @@ export default function useAuthListener() {
         setUser(authUser);
       } else {
         localStorage.removeItem('authUser');
+        setUser(null);
       }
     });
   }, []);
