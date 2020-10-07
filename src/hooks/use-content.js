@@ -6,6 +6,6 @@ export default function useContent(target) {
   const { firebase } = useContext(FirebaseContext);
 
   useEffect(() => {
-    firebase.firestore();
+    firebase.firestore().collection(target);
   }, []);
 }
