@@ -35,6 +35,10 @@ export default function selectionMap({ series, films }) {
         title: 'Children',
         data: films.filter((item) => item.genre === 'children'),
       },
+      {
+        title: 'Suspense',
+        data: films.filter((item) => item.genre === 'suspense'),
+      },
     ],
   };
 }
