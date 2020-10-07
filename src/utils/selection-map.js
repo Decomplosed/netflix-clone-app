@@ -5,6 +5,10 @@ export default function selectionMap({ series, films }) {
         title: 'Documentaries',
         data: series.filter((item) => item.genre === 'documentaries'),
       },
+      {
+        title: 'Comedies',
+        data: series.filter((item) => item.genre === 'comedies'),
+      },
     ],
   };
 }
