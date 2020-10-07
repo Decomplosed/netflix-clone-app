@@ -6,6 +6,10 @@ export default function useContent(target) {
   const { firebase } = useContext(FirebaseContext);
 
   useEffect(() => {
-    firebase.firestore().collection(target);
+    firebase
+      .firestore()
+      .collection(target)
+      .get()
+      .then((snapshot) => {});
   }, []);
 }
