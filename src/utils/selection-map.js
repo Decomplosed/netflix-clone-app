@@ -22,5 +22,11 @@ export default function selectionMap({ series, films }) {
         data: series.filter((item) => item.genre === 'feel-good'),
       },
     ],
+    films: [
+      {
+        title: 'Drama',
+        data: films.filter((item) => item.genre === 'drama'),
+      },
+    ],
   };
 }
