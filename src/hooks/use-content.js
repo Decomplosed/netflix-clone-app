@@ -5,5 +5,7 @@ export default function useContent(target) {
   const [content, setContent] = useState([]);
   const { firebase } = useContext(FirebaseContext);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    firebase.firestore();
+  }, []);
 }
