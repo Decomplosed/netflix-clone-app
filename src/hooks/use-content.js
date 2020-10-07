@@ -10,6 +10,8 @@ export default function useContent(target) {
       .firestore()
       .collection(target)
       .get()
-      .then((snapshot) => {});
+      .then((snapshot) => {
+        const allContent = snapshot.docs.map();
+      });
   }, []);
 }
