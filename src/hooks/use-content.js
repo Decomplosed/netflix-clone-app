@@ -13,6 +13,7 @@ export default function useContent(target) {
       .then((snapshot) => {
         const allContent = snapshot.docs.map((contentObj) => ({
           ...contentObj.data(),
+          docId: contentObj.id,
         }));
       });
   }, []);
