@@ -1,3 +1,3 @@
 import React from 'react';
 
-export function BrowseContainer() {}
+export function BrowseContainer({ slides }) {}
