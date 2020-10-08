@@ -1,3 +1,3 @@
 import React from 'react';
 
-export function SelectProfileContainer({}) {}
+export function SelectProfileContainer({user, setProfile}) {}
