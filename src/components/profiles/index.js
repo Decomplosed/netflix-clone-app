@@ -25,3 +25,7 @@ Profiles.Picture = function ProfilesPicture({ src, ...restProps }) {
     />
   );
 };
+
+Profiles.Name = function ProfilesName({ children, ...restProps }) {
+  return <Name {...restProps}>{children}</Name>;
+};
