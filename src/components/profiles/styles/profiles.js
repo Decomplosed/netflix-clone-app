@@ -16,3 +16,10 @@ export const Title = styled.h1`
   text-align: center;
   font-weight: 500;
 `;
+
+export const List = styled.ul`
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+`;
