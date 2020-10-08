@@ -6,7 +6,11 @@ import logo from '../logo.svg';
 export function SelectProfileContainer({ user, setProfile }) {
   return (
     <>
-      <Header></Header>
+      <Header bg={false}>
+        <Header.Frame>
+          <Header.Logo to={ROUTES.HOME} src={logo} alt='Netflix' />
+        </Header.Frame>
+      </Header>
     </>
   );
 }
