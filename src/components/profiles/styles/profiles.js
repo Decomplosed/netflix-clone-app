@@ -8,3 +8,11 @@ export const Container = styled.div`
   margin: auto;
   max-width: 80%;
 `;
+
+export const Title = styled.h1`
+  width: 100%;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 500;
+`;
