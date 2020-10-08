@@ -12,3 +12,7 @@ Profiles.Title = function ProfilesTitle({ children, ...restProps }) {
 Profiles.List = function ProfilesList({ children, ...restProps }) {
   return <List {...restProps}>{children}</List>;
 };
+
+Profiles.User = function ProfilesUser({ children, ...restProps }) {
+  return <Item {...restProps}>{children}</Item>;
+};
