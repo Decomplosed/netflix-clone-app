@@ -23,3 +23,9 @@ export const List = styled.ul`
   display: flex;
   flex-direction: row;
 `;
+
+export const Name = styled.p`
+  color: #808080;
+  text-overflow: ellipsis;
+  font-size: 16px;
+`;
