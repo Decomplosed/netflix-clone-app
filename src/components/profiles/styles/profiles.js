@@ -41,3 +41,11 @@ export const Picture = styled.img`
   border: 3px solid black;
   cursor: pointer;
 `;
+
+export const Item = styled.li`
+  max-height: 200px;
+  max-width: 200px;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 30px;
+`;
