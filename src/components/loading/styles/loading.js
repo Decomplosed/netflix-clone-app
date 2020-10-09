@@ -5,3 +5,9 @@ export const LockBody = createGlobalStyle`
     overflow: hidden;
   }
 `;
+
+export const ReleaseBody = createGlobalStyle`
+  body {
+    overflow: visible;
+  }
+`;
