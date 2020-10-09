@@ -12,6 +12,14 @@ export const ReleaseBody = createGlobalStyle`
   }
 `;
 
+export const Spinner = styled.div`
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 999;
+`;
+
 export const Picture = styled.img`
   width: 50px;
   height: 50px;
