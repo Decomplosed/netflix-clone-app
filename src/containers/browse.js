@@ -14,5 +14,5 @@ export function BrowseContainer({ slides }) {
     }, [2000]);
   }, [profile.displayName]);
 
-  return <SelectProfileContainer user={user} />;
+  return <SelectProfileContainer user={user} setProfile={setProfile} />;
 }
