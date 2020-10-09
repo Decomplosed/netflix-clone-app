@@ -52,4 +52,9 @@ export const Item = styled.li`
   &:hover > ${Picture} {
     border: 3px solid white;
   }
+
+  &:hover ${Name} {
+    font-weight: bold;
+    color: white;
+  }
 `;
