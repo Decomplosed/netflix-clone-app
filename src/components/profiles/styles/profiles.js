@@ -48,4 +48,8 @@ export const Item = styled.li`
   list-style-type: none;
   text-align: center;
   margin-right: 30px;
+
+  &:hover > ${Picture} {
+    border: 3px solid white;
+  }
 `;
