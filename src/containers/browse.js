@@ -11,8 +11,14 @@ export function BrowseContainer({ slides }) {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, [2000]);
+    }, [3000]);
   }, [profile.displayName]);
 
-  return <SelectProfileContainer user={user} setProfile={setProfile} />;
+  return profile.displayName ? (
+    loading ? (
+      <Loading src={user.photoURL} />
+    ) : null
+  ) : (
+    <SelectProfileContainer user={user} setProfile={setProfile} />
+  );
 }
