@@ -20,8 +20,10 @@ export function BrowseContainer({ slides }) {
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}{' '}
       <Header src='joker1'>
-        <Header.Feature></Header.Feature>
-      </Header>
+        <Header.Feature>
+          <Header.Text></Header.Text>
+        </Header.Feature>
+      </Header.Text>
     </>
   ) : (
     <SelectProfileContainer user={user} setProfile={setProfile} />
