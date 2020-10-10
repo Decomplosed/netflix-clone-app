@@ -16,7 +16,7 @@ Header.Feature = function HeaderFeature({ children, ...restProps }) {
   return <Feature {...restProps}>{children}</Feature>;
 };
 
-Header.Text = function HeaderText() {};
+Header.Text = function HeaderText({ children, ...restProps }) {};
 
 Header.Frame = function HeaderFrame({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
