@@ -6,6 +6,7 @@ import {
   Background,
   ButtonLink,
   Feature,
+  Text,
 } from './styles/header';
 
 export default function Header({ bg = true, children, ...restProps }) {
