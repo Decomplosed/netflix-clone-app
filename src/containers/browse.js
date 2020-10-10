@@ -22,7 +22,9 @@ export function BrowseContainer({ slides }) {
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}{' '}
       <Header src='joker1'>
-        <Header.Frame></Header.Frame>
+        <Header.Frame>
+          <Header.Logo to={ROUTES.HOME} src={logo} alt='Netflix' />
+        </Header.Frame>
         <Header.Feature>
           <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
           <Header.Text>
