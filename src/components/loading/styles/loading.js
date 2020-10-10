@@ -35,6 +35,7 @@ export const Spinner = styled.div`
     animation-duration: 1000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+  }
 
   @-ms-keyframes spin {
     from {
