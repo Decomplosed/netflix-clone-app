@@ -6,7 +6,9 @@ export default function Header({ bg = true, children, ...restProps }) {
   return bg ? <Background {...restProps}>{children}</Background> : children;
 }
 
-Header.Feature = function HeaderFeature({ children, ...restProps }) {};
+Header.Feature = function HeaderFeature({ children, ...restProps }) {
+return <Feature>{children}</Feature>
+};
 
 Header.Frame = function HeaderFrame({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
