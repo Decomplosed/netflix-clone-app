@@ -23,7 +23,7 @@ export function BrowseContainer({ slides }) {
         <Header.Feature>
           <Header.Text></Header.Text>
         </Header.Feature>
-      </Header.Text>
+      </Header>
     </>
   ) : (
     <SelectProfileContainer user={user} setProfile={setProfile} />
