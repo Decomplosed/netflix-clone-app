@@ -6,6 +6,7 @@ import {
   Background,
   ButtonLink,
   Feature,
+  FeatureCallOut,
   Text,
 } from './styles/header';
 
