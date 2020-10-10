@@ -4,6 +4,7 @@ import { FirebaseContext } from '../context/firebase';
 import { Loading } from '../components';
 import { Header } from '../components';
 import * as ROUTES from '../constants/routes';
+import logo from '../logo.svg';
 
 export function BrowseContainer({ slides }) {
   const [profile, setProfile] = useState({});
