@@ -100,6 +100,9 @@ export const Dropdown = styled.div`
   width: 100px;
   top: 32px;
   right: 10px;
+  ${Group}:last-of-type ${Link} {
+    cursor: pointer;
+  }
 `;
 
 export const Feature = styled(Container)`
