@@ -92,20 +92,6 @@ export const Picture = styled.button`
   cursor: pointer;
 `;
 
-export const Profile = styled.div`
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-  position: relative;
-  button {
-    cursor: pointer;
-  }
-  &:hover > ${Dropdown} {
-    display: flex;
-    flex-direction: column;
-  }
-`;
-
 export const Dropdown = styled.div`
   display: none;
   position: absolute;
@@ -133,6 +119,20 @@ export const Dropdown = styled.div`
     font-size: 12px;
     margin-bottom: 0;
     margin-top: 0;
+  }
+`;
+
+export const Profile = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  position: relative;
+  button {
+    cursor: pointer;
+  }
+  &:hover > ${Dropdown} {
+    display: flex;
+    flex-direction: column;
   }
 `;
 
