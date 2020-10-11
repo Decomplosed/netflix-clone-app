@@ -83,6 +83,15 @@ export const ButtonLink = styled(ReactRouterLink)`
   }
 `;
 
+export const Picture = styled.button`
+  background: url(${({ src }) => src});
+  background-size: contain;
+  border: 0;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+`;
+
 export const Feature = styled(Container)`
   padding: 150px 0 500px 0;
   flex-direction: column;
