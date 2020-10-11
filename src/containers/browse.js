@@ -21,7 +21,7 @@ export function BrowseContainer({ slides }) {
   return profile.displayName ? (
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
-      <Header src='joker1'>
+      <Header src='joker1' dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Logo to={ROUTES.HOME} src={logo} alt='Netflix' />
           <Header.TextLink>Series</Header.TextLink>
