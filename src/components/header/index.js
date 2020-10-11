@@ -8,6 +8,7 @@ import {
   ButtonLink,
   Feature,
   FeatureCallOut,
+  Group,
   Text,
 } from './styles/header';
 
