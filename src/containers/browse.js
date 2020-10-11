@@ -33,7 +33,7 @@ export function BrowseContainer({ slides }) {
             <Header.Dropdown>
               <Header.Group>
                 <Header.Picture src={user.photoURL} />
-                <Header.TextLink></Header.TextLink>
+                <Header.TextLink>{user.displayName}</Header.TextLink>
               </Header.Group>
             </Header.Dropdown>
           </Header.Group>
