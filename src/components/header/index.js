@@ -8,6 +8,7 @@ import {
   Feature,
   FeatureCallOut,
   Text,
+  TextLink,
 } from './styles/header';
 
 export default function Header({ bg = true, children, ...restProps }) {
