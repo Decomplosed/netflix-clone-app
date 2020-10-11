@@ -97,6 +97,9 @@ export const Profile = styled.div`
   align-items: center;
   margin-left: 20px;
   position: relative;
+  button {
+    cursor: pointer;
+  }
 `;
 
 export const Dropdown = styled.div`
