@@ -11,6 +11,7 @@ import {
   Group,
   Text,
   Picture,
+  Dropdown,
 } from './styles/header';
 
 export default function Header({ bg = true, children, ...restProps }) {
