@@ -52,6 +52,10 @@ Header.ButtonLink = function HeaderButtonLink({ children, ...restProps }) {
   return <ButtonLink {...restProps}>{children}</ButtonLink>;
 };
 
+Header.Dropdown = function HeaderDropdown({ children, ...restProps }) {
+  return <Dropdown {...restProps}>{children}</Dropdown>;
+};
+
 Header.Logo = function HeaderLogo({ to, ...restProps }) {
   return (
     <ReactRouterLink to={to}>
