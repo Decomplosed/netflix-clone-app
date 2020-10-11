@@ -92,6 +92,13 @@ export const Picture = styled.button`
   cursor: pointer;
 `;
 
+export const Profile = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  position: relative;
+`;
+
 export const Dropdown = styled.div`
   display: none;
   position: absolute;
