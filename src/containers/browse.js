@@ -30,7 +30,11 @@ export function BrowseContainer({ slides }) {
           </Header.Group>
           <Header.Group>
             <Header.Picture src={user.photoURL} />
-            <Header.Dropdown></Header.Dropdown>
+            <Header.Dropdown>
+              <Header.Group>
+                <Header.Picture src={user.photoURL} />
+              </Header.Group>
+            </Header.Dropdown>
           </Header.Group>
         </Header.Frame>
         <Header.Feature>
