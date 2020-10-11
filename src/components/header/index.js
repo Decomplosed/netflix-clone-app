@@ -10,7 +10,7 @@ import {
   FeatureCallOut,
   Group,
   Text,
-  Picture,
+  Profile,
   Dropdown,
 } from './styles/header';
 
