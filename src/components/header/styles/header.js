@@ -100,6 +100,10 @@ export const Profile = styled.div`
   button {
     cursor: pointer;
   }
+  &:hover > ${Dropdown} {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const Dropdown = styled.div`
