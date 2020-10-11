@@ -38,6 +38,10 @@ Header.Frame = function HeaderFrame({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 };
 
+Header.Group = function HeaderGroup({ children, ...restProps }) {
+  return <Container {...restProps}>{children}</Container>;
+};
+
 Header.ButtonLink = function HeaderButtonLink({ children, ...restProps }) {
   return <ButtonLink {...restProps}>{children}</ButtonLink>;
 };
