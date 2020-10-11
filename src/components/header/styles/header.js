@@ -112,6 +112,9 @@ export const Dropdown = styled.div`
       cursor: default;
     }
   }
+  button {
+    margin-right: 10px;
+  }
 `;
 
 export const Feature = styled(Container)`
