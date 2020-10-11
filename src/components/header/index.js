@@ -3,12 +3,12 @@ import { Link as ReactRouterLink } from 'react-router-dom';
 import {
   Container,
   Logo,
+  Link,
   Background,
   ButtonLink,
   Feature,
   FeatureCallOut,
   Text,
-  TextLink,
 } from './styles/header';
 
 export default function Header({ bg = true, children, ...restProps }) {
