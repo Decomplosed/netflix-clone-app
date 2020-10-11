@@ -29,7 +29,7 @@ export function BrowseContainer({ slides }) {
             <Header.TextLink>Films</Header.TextLink>
           </Header.Group>
           <Header.Group>
-            <Header.Picture src={user.photoURL}></Header.Picture>
+            <Header.Picture src={user.photoURL} />
           </Header.Group>
         </Header.Frame>
         <Header.Feature>
