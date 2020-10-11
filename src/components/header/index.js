@@ -11,6 +11,7 @@ import {
   Group,
   Text,
   Profile,
+  Picture,
   Dropdown,
 } from './styles/header';
 
