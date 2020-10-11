@@ -92,6 +92,16 @@ export const Picture = styled.button`
   cursor: pointer;
 `;
 
+export const Dropdown = styled.div`
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 10px;
+  width: 100px;
+  top: 32px;
+  right: 10px;
+`;
+
 export const Feature = styled(Container)`
   padding: 150px 0 500px 0;
   flex-direction: column;
