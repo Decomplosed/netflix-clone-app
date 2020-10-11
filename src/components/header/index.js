@@ -20,6 +20,10 @@ Header.Feature = function HeaderFeature({ children, ...restProps }) {
   return <Feature {...restProps}>{children}</Feature>;
 };
 
+Header.Picture = function HeaderPicture({ src, ...restProps }) {
+  return <Picture {...restProps} src={`/images/users/${src}.png`} />;
+};
+
 Header.FeatureCallOut = function HeaderFeatureCallOut({
   children,
   ...restProps
