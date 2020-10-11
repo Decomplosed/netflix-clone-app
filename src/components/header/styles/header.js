@@ -103,6 +103,15 @@ export const Dropdown = styled.div`
   ${Group}:last-of-type ${Link} {
     cursor: pointer;
   }
+  ${Group} {
+    margin-bottom: 10px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+    ${Link}, ${Picture} {
+      cursor: default;
+    }
+  }
 `;
 
 export const Feature = styled(Container)`
