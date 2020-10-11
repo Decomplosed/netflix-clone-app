@@ -29,6 +29,10 @@ Header.Text = function HeaderText({ children, ...restProps }) {
   return <Text {...restProps}>{children}</Text>;
 };
 
+Header.TextLink = function HeaderTextLink({ children, ...restProps }) {
+  return <TextLink {...restProps}>{children}</TextLink>;
+};
+
 Header.Frame = function HeaderFrame({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 };
