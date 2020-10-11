@@ -28,6 +28,9 @@ export function BrowseContainer({ slides }) {
             <Header.TextLink>Series</Header.TextLink>
             <Header.TextLink>Films</Header.TextLink>
           </Header.Group>
+          <Header.Group>
+            <Header.Picture></Header.Picture>
+          </Header.Group>
         </Header.Frame>
         <Header.Feature>
           <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
