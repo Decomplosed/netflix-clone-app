@@ -10,6 +10,7 @@ import {
   FeatureCallOut,
   Group,
   Text,
+  Picture,
 } from './styles/header';
 
 export default function Header({ bg = true, children, ...restProps }) {
