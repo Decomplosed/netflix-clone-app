@@ -26,6 +26,10 @@ Header.Picture = function HeaderPicture({ src, ...restProps }) {
   return <Picture {...restProps} src={`/images/users/${src}.png`} />;
 };
 
+Header.Profile = function HeaderProfile({ src, ...restProps }) {
+  return <Profile {...restProps}>{children}</Profile>;
+};
+
 Header.FeatureCallOut = function HeaderFeatureCallOut({
   children,
   ...restProps
