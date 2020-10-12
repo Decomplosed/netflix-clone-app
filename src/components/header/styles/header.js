@@ -158,4 +158,8 @@ export const FeatureCallOut = styled.h2`
 export const Search = styled.div`
   display: flex;
   align-items: center;
+  svg {
+    color: white;
+    cursor: pointer;
+  }
 `;
