@@ -27,6 +27,8 @@ Header.Picture = function HeaderPicture({ src, ...restProps }) {
   return <Picture {...restProps} src={`/images/users/${src}.png`} />;
 };
 
+Header.Search = function HeaderSearch() {};
+
 Header.Profile = function HeaderProfile({ children, ...restProps }) {
   return <Profile {...restProps}>{children}</Profile>;
 };
