@@ -39,7 +39,7 @@ Header.Search = function HeaderSearch({
       <SearchIcon onClick={setSearchActive((searchActive) => !searchActive)}>
         <img src='/images/icons/search.png' alt='Search' />
       </SearchIcon>
-      <SearchInput />
+      <SearchInput value={searchTerm} />
     </Search>
   );
 };
