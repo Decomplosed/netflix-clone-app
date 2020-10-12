@@ -36,7 +36,9 @@ Header.Search = function HeaderSearch({
 
   return (
     <Search {...restProps}>
-      <SearchIcon onClick={}></SearchIcon>
+      <SearchIcon
+        onClick={setSearchActive((searchActive) => !searchActive)}
+      ></SearchIcon>
     </Search>
   );
 };
