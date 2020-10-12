@@ -162,4 +162,7 @@ export const Search = styled.div`
     color: white;
     cursor: pointer;
   }
+  @media (max-width: 700px) {
+    display: none;
+  }
 `;
