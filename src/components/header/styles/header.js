@@ -171,4 +171,8 @@ export const SearchIcon = styled.button`
   cursor: pointer;
   background-color: transparent;
   border: 0;
+  img {
+    filter: brightness(0) invert(1);
+    width: 16px;
+  }
 `;
