@@ -154,3 +154,8 @@ export const FeatureCallOut = styled.h2`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
   margin: 0;
 `;
+
+export const Search = styled.div`
+  display: flex;
+  align-items: center;
+`;
