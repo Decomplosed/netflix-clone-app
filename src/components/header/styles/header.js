@@ -174,6 +174,10 @@ export const SearchInput = styled.input`
   transition: width 0.5s;
   height: 30px;
   font-size: 14px;
+  margin-left: ${({ active }) => (active === true ? '10px' : '0')};
+  padding: ${({ active }) => (active === true ? '0 10px' : '0')};
+  opacity: ${({ active }) => (active === true ? '1' : '0')};
+  width: ${({ active }) => (active === true ? '200px' : '0px')};
 `;
 
 export const SearchIcon = styled.button`
