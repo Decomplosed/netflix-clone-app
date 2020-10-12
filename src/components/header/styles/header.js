@@ -166,3 +166,9 @@ export const Search = styled.div`
     display: none;
   }
 `;
+
+export const SearchIcon = styled.button`
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+`;
