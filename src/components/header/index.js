@@ -42,6 +42,7 @@ Header.Search = function HeaderSearch({
       <SearchInput
         value={searchTerm}
         onChange={({ target }) => setSearchTerm(target.value)}
+        placeholder='Search films and series'
       />
     </Search>
   );
