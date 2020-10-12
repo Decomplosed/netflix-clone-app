@@ -34,7 +34,7 @@ Header.Search = function HeaderSearch({
 }) {
   const [searchActive, setSearchActive] = useState(false);
 
-  return <Search></Search>;
+  return <Search {...restProps}></Search>;
 };
 
 Header.Profile = function HeaderProfile({ children, ...restProps }) {
