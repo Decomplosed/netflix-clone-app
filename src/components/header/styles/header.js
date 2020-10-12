@@ -167,6 +167,15 @@ export const Search = styled.div`
   }
 `;
 
+export const SearchInput = styled.input`
+  background-color: #44444459;
+  color: white;
+  border: 1px solid white;
+  transition: width 0.5s;
+  height: 30px;
+  font-size: 14px;
+`;
+
 export const SearchIcon = styled.button`
   cursor: pointer;
   background-color: transparent;
