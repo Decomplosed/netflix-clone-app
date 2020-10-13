@@ -89,4 +89,9 @@ export const Item = styled.div`
   position: relative;
   cursor: pointer;
   transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.3);
+    z-index: 99;
+  }
 `;
