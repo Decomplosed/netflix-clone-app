@@ -138,4 +138,16 @@ export const Feature = styled.div`
   background-position-x: right;
   background-repeat: no-repeat;
   background-color: black;
+  @media (max-width: 1000px) {
+    height: auto;
+    background-size: auto;
+    ${Title} {
+      font-size: 20px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+    ${FeatureText} {
+      font-size: 14px;
+    }
+  }
 `;
