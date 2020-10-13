@@ -101,4 +101,11 @@ export const Item = styled.div`
       z-index: 100;
     }
   }
+
+  &:first-of-type {
+    margin-left: 56px;
+    @media (max-width: 1000px) {
+      margin-left: 30px;
+    }
+  }
 `;
