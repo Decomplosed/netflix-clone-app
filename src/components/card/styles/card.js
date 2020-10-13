@@ -151,3 +151,7 @@ export const Feature = styled.div`
     }
   }
 `;
+
+export const FeatureTitle = styled(Title)`
+  margin-left: 0;
+`;
