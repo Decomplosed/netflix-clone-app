@@ -2,4 +2,4 @@ import React, { useState, useContext, createContext } from 'react';
 
 export const FeatureContext = createContext();
 
-export default function Card() {}
+export default function Card({ children, ...restProps }) {}
