@@ -164,4 +164,9 @@ export const FeatureClose = styled.button`
   cursor: pointer;
   background-color: transparent;
   border: 0;
+
+  img {
+    filter: brightness(0) invert(1);
+    width: 24px;
+  }
 `;
