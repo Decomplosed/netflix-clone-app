@@ -63,3 +63,11 @@ export const Entities = styled.div`
   display: flex;
   flex-direction: row;
 `;
+
+export const Meta = styled.div`
+  display: none;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: #0000008f;
+`;
