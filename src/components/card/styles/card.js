@@ -14,4 +14,10 @@ export const Container = styled.div`
   flex-direction: column;
   margin-bottom: 50px;
   box-sizing: border-box;
+
+  > ${Title} {
+    @media (max-width: 1000px) {
+      margin-left: 30px;
+    }
+  }
 `;
