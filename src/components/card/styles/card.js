@@ -180,3 +180,16 @@ export const Content = styled.div`
     max-width: none;
   }
 `;
+
+export const Maturity = styled.div`
+  background-color: ${({ rating }) => (rating >= 15 ? 'red' : 'green')};
+  border-radius: 15px;
+  width: 20px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  font-size: 12px;
+`;
