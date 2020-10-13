@@ -127,3 +127,15 @@ export const FeatureText = styled.p`
     line-height: 22px;
   }
 `;
+
+export const Feature = styled.div`
+  display: flex;
+  flex-direction: row;
+  background: url(${({ src }) => src});
+  background-size: contain;
+  position: relative;
+  height: 360px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: black;
+`;
