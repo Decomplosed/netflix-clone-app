@@ -25,3 +25,11 @@ export const Container = styled.div`
     margin-bottom: 0;
   }
 `;
+
+export const Group = styled.div`
+  display: flex;
+  flex-direction: ${({ flexDirection }) =>
+    flexDirection === 'row' ? 'row' : 'column'};
+  ${({ alignItems }) => alignItems && `align-items: ${alignItems}`};
+  ${({ margin }) => margin && `margin: ${margin}`};
+`;
