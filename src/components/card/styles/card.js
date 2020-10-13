@@ -123,4 +123,7 @@ export const FeatureText = styled.p`
   font-weight: ${({ fontWeight }) =>
     fontWeight === 'bold' ? 'bold' : 'normal'};
   margin: 0;
+  @media (max-width: 600px) {
+    line-height: 22px;
+  }
 `;
