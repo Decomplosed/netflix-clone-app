@@ -155,3 +155,13 @@ export const Feature = styled.div`
 export const FeatureTitle = styled(Title)`
   margin-left: 0;
 `;
+
+export const FeatureClose = styled.button`
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+`;
