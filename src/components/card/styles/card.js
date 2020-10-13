@@ -58,3 +58,8 @@ export const Text = styled.p`
   display: none;
   line-height: normal;
 `;
+
+export const Entities = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
