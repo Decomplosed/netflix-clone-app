@@ -81,3 +81,12 @@ export const Image = styled.img`
   padding: 0;
   margin: 0;
 `;
+
+export const Item = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+`;
