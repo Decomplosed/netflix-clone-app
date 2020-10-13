@@ -108,4 +108,11 @@ export const Item = styled.div`
       margin-left: 30px;
     }
   }
+
+  &:last-of-type {
+    margin-right: 56px;
+    @media (max-width: 1000px) {
+      margin-right: 30px;
+    }
+  }
 `;
