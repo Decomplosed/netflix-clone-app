@@ -24,5 +24,5 @@ Card.Title = function CardTitle({ children, ...restProps }) {
 };
 
 Card.SubTitle = function CardSubTitle({ children, ...restProps }) {
-  return <SubTitle {...restProps}></SubTitle>;
+  return <SubTitle {...restProps}>{children}</SubTitle>;
 };
