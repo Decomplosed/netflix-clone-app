@@ -32,4 +32,6 @@ Card.Text = function CardText({ children, ...restProps }) {
   return <Text {...restProps}>{children}</Text>;
 };
 
-Card.Item = function CardItem({ children, ...restProps }) {};
+Card.Item = function CardItem({ children, ...restProps }) {
+  return <Item></Item>;
+};
