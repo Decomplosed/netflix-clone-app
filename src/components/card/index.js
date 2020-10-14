@@ -7,6 +7,8 @@ export default function Card({ children, ...restProps }) {
   const [itemFeature, setItemFeature] = useState({});
 
   return (
-    <FeatureContext.Provider value={}></FeatureContext.Provider>
-  )
+    <FeatureContext.Provider
+      value={{ showFeature, setShowFeature, itemFeature, setItemFeature }}
+    ></FeatureContext.Provider>
+  );
 }
