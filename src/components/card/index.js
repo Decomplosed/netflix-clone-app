@@ -14,3 +14,5 @@ export default function Card({ children, ...restProps }) {
     </FeatureContext.Provider>
   );
 }
+
+CanvasGradient.Group = function CardGroup() {};
