@@ -49,5 +49,5 @@ Card.Item = function CardItem({ item, children, ...restProps }) {
 };
 
 Card.Image = function CardImage({ ...restProps }) {
-  return <Image />;
+  return <Image {...restProps} />;
 };
