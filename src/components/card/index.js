@@ -10,7 +10,7 @@ export default function Card({ children, ...restProps }) {
     <FeatureContext.Provider
       value={{ showFeature, setShowFeature, itemFeature, setItemFeature }}
     >
-      <Container></Container>
+      <Container {...restProps}>{children}</Container>
     </FeatureContext.Provider>
   );
 }
