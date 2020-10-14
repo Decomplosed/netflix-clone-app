@@ -33,5 +33,7 @@ Card.Text = function CardText({ children, ...restProps }) {
 };
 
 Card.Item = function CardItem({ children, ...restProps }) {
+  const { setShowFeature, setItemFeature } = useContext(FeatureContext);
+
   return <Item {...restProps}>{children}</Item>;
 };
