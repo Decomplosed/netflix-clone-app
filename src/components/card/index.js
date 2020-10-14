@@ -39,6 +39,7 @@ Card.Item = function CardItem({ children, ...restProps }) {
     <Item
       onClick={() => {
         setItemFeature(item);
+        setShowFeature(true);
       }}
       {...restProps}
     >
