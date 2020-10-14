@@ -19,4 +19,6 @@ Card.Group = function CardGroup({ children, ...restProps }) {
   return <Group {...restProps}>{children}</Group>;
 };
 
-Card.Title = function CardTitle() {};
+Card.Title = function CardTitle({ children, ...restProps }) {
+  return <Title></Title>;
+};
