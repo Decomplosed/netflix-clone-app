@@ -15,6 +15,7 @@ export default function Card({ children, ...restProps }) {
   );
 }
 
-CanvasGradient.Group = function CardGroup() {
+Card.Group = function CardGroup() {
   return <Group {...restProps}>{children}</Group>;
 };
+
