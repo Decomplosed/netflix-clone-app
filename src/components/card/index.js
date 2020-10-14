@@ -27,4 +27,6 @@ Card.SubTitle = function CardSubTitle({ children, ...restProps }) {
   return <SubTitle {...restProps}>{children}</SubTitle>;
 };
 
-Card.Text = function CardText({ children, ...restProps }) {};
+Card.Text = function CardText({ children, ...restProps }) {
+  return <Text></Text>;
+};
