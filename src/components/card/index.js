@@ -1,4 +1,5 @@
 import React, { useState, useContext, createContext } from 'react';
+import { Container, Group, Title, SubTitle, Text } from './styles/card';
 
 export const FeatureContext = createContext();
 
