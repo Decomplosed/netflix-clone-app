@@ -19,3 +19,4 @@ Card.Group = function CardGroup() {
   return <Group {...restProps}>{children}</Group>;
 };
 
+Card.Title = function CardTitle() {};
