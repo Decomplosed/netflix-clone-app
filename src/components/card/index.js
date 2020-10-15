@@ -48,7 +48,9 @@ Card.Text = function CardText({ children, ...restProps }) {
   return <Text {...restProps}>{children}</Text>;
 };
 
-Card.Entities = function CardEntities({ children, ...restProps }) {};
+Card.Entities = function CardEntities({ children, ...restProps }) {
+  return <Meta></Meta>;
+};
 
 Card.Item = function CardItem({ item, children, ...restProps }) {
   const { setShowFeature, setItemFeature } = useContext(FeatureContext);
