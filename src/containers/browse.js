@@ -3,9 +3,9 @@ import { SelectProfileContainer } from './profiles';
 import { FirebaseContext } from '../context/firebase';
 import { Loading } from '../components';
 import { Header } from '../components';
+import { Card } from '../components';
 import * as ROUTES from '../constants/routes';
 import logo from '../logo.svg';
-import Card from '../components/card';
 
 export function BrowseContainer({ slides }) {
   const [category, setCategory] = useState('series');
