@@ -52,6 +52,8 @@ Card.Entities = function CardEntities({ children, ...restProps }) {
   return <Entities {...restProps}>{children}</Entities>;
 };
 
+Card.Meta = function CardMeta() {};
+
 Card.Item = function CardItem({ item, children, ...restProps }) {
   const { setShowFeature, setItemFeature } = useContext(FeatureContext);
 
