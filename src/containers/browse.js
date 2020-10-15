@@ -34,7 +34,9 @@ export function BrowseContainer({ slides }) {
         <Header.Frame>
           <Header.Group>
             <Header.Logo to={ROUTES.HOME} src={logo} alt='Netflix' />
-            <Header.TextLink>Series</Header.TextLink>
+            <Header.TextLink active={category === 'series' ? 'true' : 'false'}>
+              Series
+            </Header.TextLink>
             <Header.TextLink>Films</Header.TextLink>
           </Header.Group>
           <Header.Group>
