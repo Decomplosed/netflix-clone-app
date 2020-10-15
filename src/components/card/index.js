@@ -53,7 +53,7 @@ Card.Entities = function CardEntities({ children, ...restProps }) {
 };
 
 Card.Meta = function CardMeta({ children, ...restProps }) {
-  return <Meta {...restProps}></Meta>;
+  return <Meta {...restProps}>{children}</Meta>;
 };
 
 Card.Item = function CardItem({ item, children, ...restProps }) {
