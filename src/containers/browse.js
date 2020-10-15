@@ -5,6 +5,7 @@ import { Loading } from '../components';
 import { Header } from '../components';
 import * as ROUTES from '../constants/routes';
 import logo from '../logo.svg';
+import Card from '../components/card';
 
 export function BrowseContainer({ slides }) {
   const [searchTerm, setSearchTerm] = useState('');
