@@ -1,9 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { SelectProfileContainer } from './profiles';
 import { FirebaseContext } from '../context/firebase';
-import { Loading } from '../components';
-import { Header } from '../components';
-import { Card } from '../components';
+import { Loading, Header, Card } from '../components';
 import * as ROUTES from '../constants/routes';
 import logo from '../logo.svg';
 
