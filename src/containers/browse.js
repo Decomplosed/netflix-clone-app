@@ -63,6 +63,8 @@ export function BrowseContainer({ slides }) {
           <Header.PlayButton>Play</Header.PlayButton>
         </Header.Feature>
       </Header>
+
+      <Card.Group></Card.Group>
     </>
   ) : (
     <SelectProfileContainer user={user} setProfile={setProfile} />
