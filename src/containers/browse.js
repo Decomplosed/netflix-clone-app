@@ -40,7 +40,10 @@ export function BrowseContainer({ slides }) {
             >
               Series
             </Header.TextLink>
-            <Header.TextLink active={category === 'films' ? 'true' : 'false'}>
+            <Header.TextLink
+              active={category === 'films' ? 'true' : 'false'}
+              onClick={() => setCategory('films')}
+            >
               Films
             </Header.TextLink>
           </Header.Group>
