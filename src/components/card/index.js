@@ -15,7 +15,6 @@ import {
   Content,
   Meta,
   Entities,
-  
 } from './styles/card';
 
 export const FeatureContext = createContext();
