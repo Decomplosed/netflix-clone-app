@@ -40,7 +40,9 @@ export function BrowseContainer({ slides }) {
             >
               Series
             </Header.TextLink>
-            <Header.TextLink>Films</Header.TextLink>
+            <Header.TextLink active={category === 'films' ? 'true' : 'false'}>
+              Films
+            </Header.TextLink>
           </Header.Group>
           <Header.Group>
             <Header.Search
