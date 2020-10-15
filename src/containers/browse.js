@@ -81,7 +81,9 @@ export function BrowseContainer({ slides }) {
         </Header.Feature>
       </Header>
 
-      <Card.Group></Card.Group>
+      <Card.Group>
+        {slideRows.map()}
+      </Card.Group>
     </>
   ) : (
     <SelectProfileContainer user={user} setProfile={setProfile} />
