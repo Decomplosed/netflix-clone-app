@@ -82,7 +82,9 @@ export function BrowseContainer({ slides }) {
       </Header>
 
       <Card.Group>
-        {slideRows.map()}
+        {slideRows.map((slideItem) => (
+          <Card></Card>
+        ))}
       </Card.Group>
     </>
   ) : (
