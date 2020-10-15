@@ -49,7 +49,7 @@ Card.Text = function CardText({ children, ...restProps }) {
 };
 
 Card.Entities = function CardEntities({ children, ...restProps }) {
-  return <Meta></Meta>;
+  return <Meta {...restProps}></Meta>;
 };
 
 Card.Item = function CardItem({ item, children, ...restProps }) {
