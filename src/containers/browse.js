@@ -8,6 +8,7 @@ import logo from '../logo.svg';
 import Card from '../components/card';
 
 export function BrowseContainer({ slides }) {
+  const [category, setCategory] = useState('series');
   const [searchTerm, setSearchTerm] = useState('');
   const [profile, setProfile] = useState({});
   const [loading, setLoading] = useState(true);
