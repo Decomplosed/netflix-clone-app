@@ -7,6 +7,15 @@ import {
   Text,
   Item,
   Image,
+  Feature,
+  FeatureTitle,
+  FeatureText,
+  FeatureClose,
+  Maturity,
+  Content,
+  Meta,
+  Entities,
+  
 } from './styles/card';
 
 export const FeatureContext = createContext();
