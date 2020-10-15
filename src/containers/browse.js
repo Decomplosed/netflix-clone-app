@@ -22,6 +22,8 @@ export function BrowseContainer({ slides }) {
     }, [3000]);
   }, [profile.displayName]);
 
+  useEffect(() => {}, []);
+
   return profile.displayName ? (
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
