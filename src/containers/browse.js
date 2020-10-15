@@ -87,7 +87,7 @@ export function BrowseContainer({ slides }) {
             <Card.Title>{slideItem.title}</Card.Title>
             <Card.Entities>
               {slideItem.data.map((item) => (
-                <Card.Item></Card.Item>
+                <Card.Item key={item.docId}></Card.Item>
               ))}
             </Card.Entities>
           </Card>
