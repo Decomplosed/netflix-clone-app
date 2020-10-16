@@ -93,7 +93,9 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
         </FeatureClose>
       </Content>
 
-      <Group margin='30px 0' flexDirection='row' alignItems='center'></Group>
+      <Group margin='30px 0' flexDirection='row' alignItems='center'>
+        <Maturity></Maturity>
+      </Group>
     </Feature>
   ) : null;
 };
