@@ -92,6 +92,8 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
           <img src='/images/icons/close.png' alt='Close' />
         </FeatureClose>
       </Content>
+
+      <Group margin='30px 0' flexDirection='row' alignItems='center'></Group>
     </Feature>
   ) : null;
 };
