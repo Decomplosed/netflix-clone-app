@@ -82,6 +82,8 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
   );
 
   return showFeature ? (
-    <Feature src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}></Feature>
+    <Feature src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}>
+      <Content></Content>
+    </Feature>
   )
 };
