@@ -82,7 +82,9 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
   );
 
   return showFeature ? (
-    <Feature src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}>
+    <Feature
+      src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}
+    >
       <Content>
         <FeatureTitle>{itemFeature.title}</FeatureTitle>
         <FeatureText>{itemFeature.text}</FeatureText>
@@ -91,5 +93,5 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
         </FeatureClose>
       </Content>
     </Feature>
-  )
+  ) : null;
 };
