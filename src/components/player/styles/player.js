@@ -49,4 +49,10 @@ export const Close = styled.button`
     width: 2px;
     background-color: #333;
   }
+  &:before {
+    transform: rotate(45deg);
+  }
+  &:after {
+    transform: rotate(-45deg);
+  }
 `;
