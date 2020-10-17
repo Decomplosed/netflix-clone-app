@@ -108,6 +108,7 @@ export function BrowseContainer({ slides }) {
           </Card>
         ))}
       </Card.Group>
+      <FooterContainer />
     </>
   ) : (
     <SelectProfileContainer user={user} setProfile={setProfile} />
