@@ -9,7 +9,7 @@ export default function Player({ children, ...restProps }) {
 
   return (
     <PlayerContext.Provider value={{ showPlayer, setShowPlayer }}>
-      <Container></Container>
+      <Container {...restProps}></Container>
     </PlayerContext.Provider>
   );
 }
