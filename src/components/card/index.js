@@ -97,6 +97,7 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
         <Maturity rating={itemFeature.maturity}>
           {itemFeature.maturity < 12 ? 'PG' : itemFeature.maturity}
         </Maturity>
+        <FeatureText></FeatureText>
       </Group>
     </Feature>
   ) : null;
