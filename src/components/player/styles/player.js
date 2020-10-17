@@ -14,3 +14,10 @@ export const Overlay = styled.div`
   background: rgba(0, 0, 0, 0.5);
   margin: 0 20px;
 `;
+
+export const Inner = styled.div`
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+`;
