@@ -25,3 +25,15 @@ export const Inner = styled.div`
     width: 100%;
   }
 `;
+
+export const Close = styled.button`
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 22px;
+  height: 22px;
+  opacity: 0.3;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+`;
