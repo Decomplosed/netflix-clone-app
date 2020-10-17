@@ -4,4 +4,6 @@ import { Container, Button, Overlay, Inner, Close } from './styles/player';
 
 export const PlayerContext = createContext();
 
-export default function Player({ children, ...restProps }) {}
+export default function Player({ children, ...restProps }) {
+  const [showPlayer, setShowPlayer] = useState(false);
+}
