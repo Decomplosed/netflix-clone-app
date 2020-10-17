@@ -39,4 +39,14 @@ export const Close = styled.button`
   &:hover {
     opacity: 1;
   }
+  &:before,
+  &:after {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    content: ' ';
+    height: 22px;
+    width: 2px;
+    background-color: #333;
+  }
 `;
