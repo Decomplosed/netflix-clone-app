@@ -20,4 +20,8 @@ export const Inner = styled.div`
   width: 100%;
   max-width: 900px;
   margin: auto;
+  video {
+    height: 100%;
+    width: 100%;
+  }
 `;
