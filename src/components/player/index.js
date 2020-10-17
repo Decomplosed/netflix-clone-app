@@ -14,4 +14,6 @@ export default function Player({ children, ...restProps }) {
   );
 }
 
-Player.Video = function PlayerVideo({ src, ...restProps }) {};
+Player.Video = function PlayerVideo({ src, ...restProps }) {
+  const { showPlayer, setShowPlayer } = useContext(PlayerContext);
+};
