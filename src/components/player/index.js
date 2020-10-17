@@ -13,3 +13,5 @@ export default function Player({ children, ...restProps }) {
     </PlayerContext.Provider>
   );
 }
+
+Player.Video = function PlayerVideo() {};
