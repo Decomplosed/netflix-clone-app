@@ -14,4 +14,4 @@ export default function Player({ children, ...restProps }) {
   );
 }
 
-Player.Video = function PlayerVideo() {};
+Player.Video = function PlayerVideo({ src, ...restProps }) {};
