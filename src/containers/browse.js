@@ -102,6 +102,7 @@ export function BrowseContainer({ slides }) {
                 <Player.Button />
                 <Player.Video src='/videos/bunny.mp4' />
               </Player> */}
+              <p>Hello</p>
             </Card.Feature>
           </Card>
         ))}
