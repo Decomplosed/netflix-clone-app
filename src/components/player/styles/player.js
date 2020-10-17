@@ -36,4 +36,7 @@ export const Close = styled.button`
   background-color: transparent;
   border: 0;
   cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
 `;
