@@ -19,7 +19,9 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
 
   return showPlayer
     ? ReactDOM.createPortal(
-        <Overlay onClick={() => setShowPlayer(false)}></Overlay>,
+        <Overlay onClick={() => setShowPlayer(false)}>
+          <Inner></Inner>
+        </Overlay>,
       )
     : null;
 };
