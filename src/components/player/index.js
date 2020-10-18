@@ -30,4 +30,6 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
     : null;
 };
 
-Player.Button = function PlayerButton({...restProps}) {};
+Player.Button = function PlayerButton({ ...restProps }) {
+  const { showPlayer, setShowPlayer } = useContext(PlayerContext);
+};
