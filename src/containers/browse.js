@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { SelectProfileContainer } from './profiles';
 import { FirebaseContext } from '../context/firebase';
-import { Loading, Header, Card } from '../components';
+import { Loading, Header, Card, Player } from '../components';
 import { FooterContainer } from './footer';
 import * as ROUTES from '../constants/routes';
 import logo from '../logo.svg';
