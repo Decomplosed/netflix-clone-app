@@ -29,3 +29,5 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
       )
     : null;
 };
+
+Player.Button = function PlayerButton() {};
