@@ -27,7 +27,9 @@ export function BrowseContainer({ slides }) {
     setSlideRows(slides[category]);
   }, [slides, category]);
 
-  useEffect(() => {}, [searchTerm]);
+  useEffect(() => {
+    const fuse = new Fuse(slideRows, { keys: [] });
+  }, [searchTerm]);
 
   return profile.displayName ? (
     <>
