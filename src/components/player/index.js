@@ -18,6 +18,8 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
   const { showPlayer, setShowPlayer } = useContext(PlayerContext);
 
   return showPlayer
-    ? ReactDOM.createPortal(<Overlay onClick={}></Overlay>)
+    ? ReactDOM.createPortal(
+        <Overlay onClick={() => setShowPlayer(false)}></Overlay>,
+      )
     : null;
 };
