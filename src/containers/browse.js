@@ -27,7 +27,7 @@ export function BrowseContainer({ slides }) {
     setSlideRows(slides[category]);
   }, [slides, category]);
 
-  useEffect(() => {}, []);
+  useEffect(() => {}, [searchTerm]);
 
   return profile.displayName ? (
     <>
