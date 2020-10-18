@@ -99,11 +99,7 @@ export function BrowseContainer({ slides }) {
               ))}
             </Card.Entities>
             <Card.Feature category={category}>
-              {/* <Player>
-                <Player.Button />
-                <Player.Video src='/videos/bunny.mp4' />
-              </Player> */}
-              <p>Hello</p>
+              <Player></Player>
             </Card.Feature>
           </Card>
         ))}
