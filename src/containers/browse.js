@@ -31,6 +31,7 @@ export function BrowseContainer({ slides }) {
     const fuse = new Fuse(slideRows, {
       keys: ['data.description', 'data.title', 'data.genre'],
     });
+    const results = fuse.search()
   }, [searchTerm]);
 
   return profile.displayName ? (
