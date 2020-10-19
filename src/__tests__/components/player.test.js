@@ -4,7 +4,7 @@ import { Player } from '../../componentsnts';
 
 describe('<Player />', () => {
   it('Renders the <Player /> with a bunny video', () => {
-    const { getByText, queryByTestId } = render(
+    const { container, getByText, queryByTestId } = render(
       <Player>
         <Player.Button>
           <Player.Video src='/videos/bunny.mp4' />
