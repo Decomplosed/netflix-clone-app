@@ -12,6 +12,6 @@ describe('<Player />', () => {
       </Player>,
     );
 
-    expect(queryByTestId('player').toBeFalsy());
+    expect(queryByTestId('player')).toBeFalsy();
   });
 });
