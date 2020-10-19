@@ -19,5 +19,6 @@ describe('<Player />', () => {
     fireEvent.click(getByText('Play'));
 
     expect(queryByTestId('player')).toBeFalsy();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
