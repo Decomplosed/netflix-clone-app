@@ -16,5 +16,6 @@ describe('<Player />', () => {
     fireEvent.click(getByText('Play'));
 
     expect(queryByTestId('player')).toBeTruthy();
+    fireEvent.click(getByText('Play'));
   });
 });
