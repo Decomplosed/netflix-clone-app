@@ -11,5 +11,7 @@ describe('<Player />', () => {
         </Player.Button>
       </Player>,
     );
+
+    expect(queryByTestId('player').toBeFalsy());
   });
 });
