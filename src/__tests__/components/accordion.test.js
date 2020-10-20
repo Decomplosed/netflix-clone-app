@@ -3,4 +3,6 @@ import { render, fireEvent } from '@testing-library/react';
 import faqsData from '../../fixtures/faqs';
 import { Accordion } from '../../components';
 
-describe('<Accordion />', () => {});
+describe('<Accordion />', () => {
+  it('Renders the <Accordion /> component with populated data', () => {})
+});
