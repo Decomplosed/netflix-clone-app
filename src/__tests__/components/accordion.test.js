@@ -5,6 +5,8 @@ import { Accordion } from '../../components';
 
 describe('<Accordion />', () => {
   it('Renders the <Accordion /> component with populated data', () => {
-    const { container, getByText } = render();
+    const { container, getByText } = render(
+      <Accordion></Accordion>
+    );
   });
 });
