@@ -4,6 +4,10 @@ import { Footer } from '../../components';
 
 describe('<Footer />', () => {
   it('Renders the <Footer /> with populated data', () => {
-    const { container, getByText } = render(<Footer></Footer>);
+    const { container, getByText } = render(
+      <Footer>
+        <Footer.Title></Footer.Title>
+      </Footer>,
+    );
   });
 });
