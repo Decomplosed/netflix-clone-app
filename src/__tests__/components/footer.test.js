@@ -47,5 +47,6 @@ describe('<Footer />', () => {
     expect(getByText('FAQ')).toBeTruthy();
     expect(getByText('Investor Relations')).toBeTruthy();
     expect(getByText('Ways to Watch')).toBeTruthy();
+    expect(getByText('Corporate Information')).toBeTruthy();
   });
 });
