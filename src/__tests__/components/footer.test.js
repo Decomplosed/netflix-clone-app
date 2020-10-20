@@ -6,7 +6,7 @@ describe('<Footer />', () => {
   it('Renders the <Footer /> with populated data', () => {
     const { container, getByText } = render(
       <Footer>
-        <Footer.Title></Footer.Title>
+        <Footer.Title>Questions? Contact us.</Footer.Title>
       </Footer>,
     );
   });
