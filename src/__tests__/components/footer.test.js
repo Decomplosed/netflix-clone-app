@@ -23,6 +23,13 @@ describe('<Footer />', () => {
             <Footer.Link href='#'>Terms of Use</Footer.Link>
             <Footer.Link href='#'>Contact Us</Footer.Link>
           </Footer.Column>
+
+          <Footer.Column>
+            <Footer.Link href='#'>Account</Footer.Link>
+            <Footer.Link href='#'>Redeem gift cards</Footer.Link>
+            <Footer.Link href='#'>Privacy</Footer.Link>
+            <Footer.Link href='#'>Speed Test</Footer.Link>
+          </Footer.Column>
         </Footer.Row>
       </Footer>,
     );
