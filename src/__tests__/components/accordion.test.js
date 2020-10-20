@@ -4,5 +4,7 @@ import faqsData from '../../fixtures/faqs';
 import { Accordion } from '../../components';
 
 describe('<Accordion />', () => {
-  it('Renders the <Accordion /> component with populated data', () => {})
+  it('Renders the <Accordion /> component with populated data', () => {
+    const { container, getByText } = render();
+  });
 });
