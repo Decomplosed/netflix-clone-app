@@ -4,6 +4,6 @@ import { Footer } from '../../components';
 
 describe('<Footer />', () => {
   it('Renders the <Footer /> with populated data', () => {
-    const { container, getByText } = render();
+    const { container, getByText } = render(<Footer></Footer>);
   });
 });
