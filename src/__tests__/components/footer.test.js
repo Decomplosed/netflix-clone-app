@@ -49,5 +49,6 @@ describe('<Footer />', () => {
     expect(getByText('Ways to Watch')).toBeTruthy();
     expect(getByText('Corporate Information')).toBeTruthy();
     expect(getByText('Netflix Originals')).toBeTruthy();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
