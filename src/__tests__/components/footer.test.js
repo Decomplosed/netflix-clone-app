@@ -44,5 +44,6 @@ describe('<Footer />', () => {
     );
 
     expect(getByText('Questions? Contact us.')).toBeTruthy();
+    expect(getByText('FAQ')).toBeTruthy();
   });
 });
