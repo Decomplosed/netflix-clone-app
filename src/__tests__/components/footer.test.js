@@ -7,6 +7,7 @@ describe('<Footer />', () => {
     const { container, getByText } = render(
       <Footer>
         <Footer.Title>Questions? Contact us.</Footer.Title>
+        <Footer.Break />
       </Footer>,
     );
   });
