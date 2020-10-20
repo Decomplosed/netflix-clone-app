@@ -42,5 +42,7 @@ describe('<Footer />', () => {
         <Footer.Text>Netflix United Kingdom</Footer.Text>
       </Footer>,
     );
+
+    expect(getByText('Questions? Contact us.')).toBeTruthy();
   });
 });
