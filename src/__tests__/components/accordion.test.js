@@ -9,9 +9,11 @@ describe('<Accordion />', () => {
       <Accordion>
         <Accordion.Title>Frequently Asked Questions</Accordion.Title>
         <Accordion.Frame>
-          {faqsData.map(item) => (
-            <Accordion.Item key={item.id}></Accordion.Item>
-          )}
+          {faqsData.map((item) => (
+            <Accordion.Item key={item.id}>
+              <Accordion.Header>{item.header}</Accordion.Header>
+            </Accordion.Item>
+          ))}
         </Accordion.Frame>
       </Accordion>,
     );
