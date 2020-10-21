@@ -30,19 +30,19 @@ describe('<Accordion />', () => {
 });
 
 it('Opens and closes the <Accordion /> component', () => {
-  const { container, queryByText } = render();
-
-  <Accordion>
-    <Accordion.Title>Frequently Asked Questions</Accordion.Title>
-    <Accordion.Frame>
-      {faqsData.map((item) => (
-        <Accordion.Item key={item.id}>
-          <Accordion.Header>{item.header}</Accordion.Header>
-          <Accordion.Body data-testid='accordion-body'>
-            {item.body}
-          </Accordion.Body>
-        </Accordion.Item>
-      ))}
-    </Accordion.Frame>
-  </Accordion>;
+  const { container, queryByText } = render(
+    <Accordion>
+      <Accordion.Title>Frequently Asked Questions</Accordion.Title>
+      <Accordion.Frame>
+        {faqsData.map((item) => (
+          <Accordion.Item key={item.id}>
+            <Accordion.Header>{item.header}</Accordion.Header>
+            <Accordion.Body data-testid='accordion-body'>
+              {item.body}
+            </Accordion.Body>
+          </Accordion.Item>
+        ))}
+      </Accordion.Frame>
+    </Accordion>,
+  );
 });
