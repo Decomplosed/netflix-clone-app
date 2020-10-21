@@ -28,3 +28,5 @@ describe('<Accordion />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 });
+
+it('Opens and closes the <Accordion /> component', () => {});
