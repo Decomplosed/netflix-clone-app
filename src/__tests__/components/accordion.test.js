@@ -54,5 +54,6 @@ describe('<Accordion />', () => {
 
     fireEvent.click(queryByText('What is Netflix?'));
     expect(queryByText(whatIsNetflixBodyText)).toBeFalsy();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
