@@ -21,5 +21,6 @@ describe('<Accordion />', () => {
 
     expect(getByText('Frequently Asked Questions')).toBeTruthy();
     expect(getByText('What is Netflix?')).toBeTruthy();
+    expect(getByText('How much does Netflix cost?')).toBeTruthy();
   });
 });
