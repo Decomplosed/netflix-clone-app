@@ -6,7 +6,9 @@ import { Accordion } from '../../components';
 describe('<Accordion />', () => {
   it('Renders the <Accordion /> component with populated data', () => {
     const { container, getByText } = render(
-      <Accordion></Accordion>
+      <Accordion>
+        <Accordion.Title>Frequently Asked Questions</Accordion.Title>
+      </Accordion>,
     );
   });
 });
