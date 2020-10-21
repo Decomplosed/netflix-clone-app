@@ -8,7 +8,9 @@ describe('<Accordion />', () => {
     const { container, getByText } = render(
       <Accordion>
         <Accordion.Title>Frequently Asked Questions</Accordion.Title>
-        <Accordion.Frame></Accordion.Frame>
+        <Accordion.Frame>
+          {faqsData.map(item) => ()}
+        </Accordion.Frame>
       </Accordion>,
     );
   });
