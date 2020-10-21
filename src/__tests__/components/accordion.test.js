@@ -29,4 +29,6 @@ describe('<Accordion />', () => {
   });
 });
 
-it('Opens and closes the <Accordion /> component', () => {});
+it('Opens and closes the <Accordion /> component', () => {
+  const { container, queryByText } = render();
+});
