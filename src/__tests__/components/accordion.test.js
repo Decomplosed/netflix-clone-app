@@ -18,5 +18,7 @@ describe('<Accordion />', () => {
         </Accordion.Frame>
       </Accordion>,
     );
+
+    expect(getByText('Frequently Asked Questions')).toBeTruthy();
   });
 });
