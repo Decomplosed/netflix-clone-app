@@ -47,6 +47,7 @@ describe('<Card />', () => {
                   <Card.Image
                     src={`/images/${category}/${item.genre}/${item.slug}/small.jpg`}
                   />
+                  <Card.Meta></Card.Meta>
                 </Card.Item>
               ))}
             </Card.Entities>
