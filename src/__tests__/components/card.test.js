@@ -35,5 +35,7 @@ const slideRows = [
 ];
 
 describe('<Card />', () => {
-  it('Renders the <Card /> with populated data', () => {});
+  it('Renders the <Card /> with populated data', () => {
+    const { container, getByText } = render();
+  });
 });
