@@ -102,5 +102,7 @@ describe('<Card />', () => {
         ))}
       </Card.Group>
     );
+
+    expect(queryByText('18')).toBeFalsy();
   });
 });
