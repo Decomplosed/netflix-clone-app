@@ -112,5 +112,7 @@ describe('<Card />', () => {
     expect(queryByText('18')).toBeFalsy();
     fireEvent.click(getByTestId('tiger-king-item-feature'));
     expect(queryByText('18')).toBeTruthy();
+
+    fireEvent.click(getByAltText('Close'));
   });
 });
