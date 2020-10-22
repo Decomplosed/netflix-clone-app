@@ -67,5 +67,6 @@ describe('<Card />', () => {
 
     expect(getByText('Documentaries')).toBeTruthy();
     expect(getByText('Tiger King')).toBeTruthy();
+    expect(getByText('Tiger King description')).toBeTruthy();
   });
 });
