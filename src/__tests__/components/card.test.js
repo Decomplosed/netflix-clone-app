@@ -70,5 +70,6 @@ describe('<Card />', () => {
     expect(getByText('Tiger King description')).toBeTruthy();
 
     expect(getByText('Feel Good')).toBeTruthy();
+    expect(getByText('Juno')).toBeTruthy();
   });
 });
