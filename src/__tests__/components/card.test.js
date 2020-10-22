@@ -64,5 +64,7 @@ describe('<Card />', () => {
         ))}
       </Card.Group>,
     );
+
+    expect(getByText('Documentaries')).toBeTruthy();
   });
 });
