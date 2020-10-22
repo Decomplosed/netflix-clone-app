@@ -75,5 +75,7 @@ describe('<Card />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('Renders the <Card /> and clicks the card feature', () => {});
+  it('Renders the <Card /> and clicks the card feature', () => {
+    const { container, queryByText, getByAltText, getByTestId } = render();
+  });
 });
