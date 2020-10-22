@@ -36,10 +36,14 @@ const slideRows = [
 
 describe('<Card />', () => {
   it('Renders the <Card /> with populated data', () => {
-    const { container, getByText } = render(<Card.Group>
-      {slideRows.map(slideItem => (
-        <Card key={`${category}-${slideItem.title.toLowerCase()}`}></Card>
-      ))}
-    </Card.Group>);
+    const { container, getByText } = render(
+      <Card.Group>
+        {slideRows.map((slideItem) => (
+          <Card key={`${category}-${slideItem.title.toLowerCase()}`}>
+            <Card.Title>{slideItem.title}</Card.Title>
+          </Card>
+        ))}
+      </Card.Group>,
+    );
   });
 });
