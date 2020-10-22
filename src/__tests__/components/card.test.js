@@ -76,6 +76,31 @@ describe('<Card />', () => {
   });
 
   it('Renders the <Card /> and clicks the card feature', () => {
-    const { container, queryByText, getByAltText, getByTestId } = render();
+    const { container, queryByText, getByAltText, getByTestId } = render(
+      <Card.Group>
+        {slideRows.map((slideItem) => (
+          <Card key={`${category}-${slideItem.title.toLowerCase()}`}>
+            <Card.Title>{slideItem.title}</Card.Title>
+            <Card.Entities>
+              {slideItem.data.map((item) => (
+                <Card.Item key={item.docId} item={item} data-testid={`${item.slug}-item-feature`}>
+                  <Card.Image src={`/images/${category}/${item.genre}/${item.slug}/small.jpg`} />
+                  <Card.Meta>
+                    <Card.SubTitle>{item.title}</Card.SubTitle>
+                    <Card.Text>{item.description}</Card.Text>
+                  </Card.Meta>
+                </Card.Item>
+              ))}
+            </Card.Entities>
+            <Card.Feature category={category}>
+              <Player>
+                <Player.Button />
+                <Player.Video />
+              </Player>
+            </Card.Feature>
+          </Card>
+        ))}
+      </Card.Group>
+    );
   });
 });
