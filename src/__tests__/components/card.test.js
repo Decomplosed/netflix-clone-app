@@ -42,7 +42,9 @@ describe('<Card />', () => {
           <Card key={`${category}-${slideItem.title.toLowerCase()}`}>
             <Card.Title>{slideItem.title}</Card.Title>
             <Card.Entities>
-            {slideItem.data.map((item) => ())}
+            {slideItem.data.map((item) => (
+              <Card.Item key={item.docId} item={item}></Card.Item>
+            ))}
             </Card.Entities>
           </Card>
         ))}
