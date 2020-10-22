@@ -74,4 +74,6 @@ describe('<Card />', () => {
     expect(getByText('Juno description')).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('Renders the <Card /> and clicks the card feature', () => {});
 });
