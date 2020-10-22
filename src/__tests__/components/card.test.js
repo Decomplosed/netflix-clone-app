@@ -54,7 +54,9 @@ describe('<Card />', () => {
                 </Card.Item>
               ))}
             </Card.Entities>
-            <Card.Feature category={category}></Card.Feature>
+            <Card.Feature category={category}>
+              <Player></Player>
+            </Card.Feature>
           </Card>
         ))}
       </Card.Group>,
