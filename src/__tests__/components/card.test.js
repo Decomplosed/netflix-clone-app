@@ -49,6 +49,7 @@ describe('<Card />', () => {
                   />
                   <Card.Meta>
                     <Card.SubTitle>{item.title}</Card.SubTitle>
+                    <Card.Text>{item.description}</Card.Text>
                   </Card.Meta>
                 </Card.Item>
               ))}
