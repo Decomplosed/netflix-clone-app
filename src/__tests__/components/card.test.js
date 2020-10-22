@@ -106,9 +106,10 @@ describe('<Card />', () => {
             </Card.Feature>
           </Card>
         ))}
-      </Card.Group>
+      </Card.Group>,
     );
 
     expect(queryByText('18')).toBeFalsy();
+    fireEvent.click(getByTestId('tiger-king-item-feature'));
   });
 });
