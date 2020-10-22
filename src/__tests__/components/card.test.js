@@ -114,5 +114,6 @@ describe('<Card />', () => {
     expect(queryByText('18')).toBeTruthy();
 
     fireEvent.click(getByAltText('Close'));
+    expect(queryByText('18')).toBeFalsy();
   });
 });
