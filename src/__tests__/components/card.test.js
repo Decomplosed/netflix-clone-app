@@ -122,5 +122,6 @@ describe('<Card />', () => {
 
     fireEvent.click(getByAltText('Close'));
     expect(queryByText('PG')).toBeFalsy();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
