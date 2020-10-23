@@ -12,5 +12,6 @@ describe('<Feature />', () => {
     );
 
     expect(getByText('Unlimited films, TV programmes and more.')).toBeTruthy();
+    expect(getByText('Watch anywhere. Cancel at any time.')).toBeTruthy();
   });
 });
