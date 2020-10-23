@@ -118,5 +118,6 @@ describe('<Card />', () => {
 
     expect(queryByText('PG')).toBeFalsy();
     fireEvent.click(getByTestId('juno-item-feature'));
+    expect(queryByText('PG')).toBeTruthy();
   });
 });
