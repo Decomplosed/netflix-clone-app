@@ -30,7 +30,9 @@ describe('<Feature />', () => {
 
   it('Renders the <Feature /> with just a sub-title', () => {
     const { container, queryByText, getByText } = render(
-      <Feature></Feature>
+      <Feature>
+        <Feature.SubTitle>Watch anywhere. Cancel at any time.</Feature.SubTitle>
+      </Feature>,
     );
   });
 });
