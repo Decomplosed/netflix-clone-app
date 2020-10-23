@@ -25,5 +25,6 @@ describe('<Feature />', () => {
 
     expect(getByText('Unlimited films, TV programmes and more.')).toBeTruthy();
     expect(queryByText('Watch anywhere. Cancel at any time.')).toBeFalsy();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
