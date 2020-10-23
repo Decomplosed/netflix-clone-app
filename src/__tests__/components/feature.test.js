@@ -18,7 +18,9 @@ describe('<Feature />', () => {
 
   it('Renders the <Feature /> with just a title', () => {
     const { container, queryByText, getByText } = render(
-      <Feature></Feature>
+      <Feature>
+        <Feature.Title>Unlimited films, TV programmes and more.</Feature.Title>
+      </Feature>,
     );
   });
 });
