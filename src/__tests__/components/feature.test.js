@@ -15,4 +15,6 @@ describe('<Feature />', () => {
     expect(getByText('Watch anywhere. Cancel at any time.')).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('Renders the <Feature /> with just a title', () => {});
 });
