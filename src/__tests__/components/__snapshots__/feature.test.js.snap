@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Feature /> Renders the <Feature /> with just a title 1`] = `
+<div
+  class="feature__Container-sc-1y24gor-0 hpCPBF"
+>
+  <h1
+    class="feature__Title-sc-1y24gor-1 cVIPdK"
+  >
+    Unlimited films, TV programmes and more.
+  </h1>
+</div>
+`;
+
 exports[`<Feature /> Renders the <Feature /> with populated data 1`] = `
 <div
   class="feature__Container-sc-1y24gor-0 hpCPBF"
