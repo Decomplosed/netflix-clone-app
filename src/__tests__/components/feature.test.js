@@ -22,5 +22,7 @@ describe('<Feature />', () => {
         <Feature.Title>Unlimited films, TV programmes and more.</Feature.Title>
       </Feature>,
     );
+
+    expect(getByText('Unlimited films, TV programmes and more.')).toBeTruthy();
   });
 });
