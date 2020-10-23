@@ -121,5 +121,6 @@ describe('<Card />', () => {
     expect(queryByText('PG')).toBeTruthy();
 
     fireEvent.click(getByAltText('Close'));
+    expect(queryByText('PG')).toBeFalsy();
   });
 });
