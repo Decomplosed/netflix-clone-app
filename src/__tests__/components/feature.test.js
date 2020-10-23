@@ -7,6 +7,7 @@ describe('<Feature />', () => {
     const { container, getByText } = render(
       <Feature>
         <Feature.Title>Unlimited films, TV programmes and more.</Feature.Title>
+        <Feature.SubTitle>Watch anywhere. Cancel at any time.</Feature.SubTitle>
       </Feature>,
     );
   });
