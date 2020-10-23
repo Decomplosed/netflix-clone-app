@@ -17,6 +17,8 @@ describe('<Feature />', () => {
   });
 
   it('Renders the <Feature /> with just a title', () => {
-    const { container, queryByText, getByText } = render();
+    const { container, queryByText, getByText } = render(
+      <Feature></Feature>
+    );
   });
 });
