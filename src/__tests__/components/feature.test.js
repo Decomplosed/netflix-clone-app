@@ -16,5 +16,7 @@ describe('<Feature />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('Renders the <Feature /> with just a title', () => {});
+  it('Renders the <Feature /> with just a title', () => {
+    const { container, queryByText, getByText } = render();
+  });
 });
