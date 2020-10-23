@@ -28,5 +28,7 @@ describe('<Feature />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('Renders the <Feature /> with just a sub-title', () => {});
+  it('Renders the <Feature /> with just a sub-title', () => {
+    const { container, queryByText, getByText } = render();
+  });
 });
