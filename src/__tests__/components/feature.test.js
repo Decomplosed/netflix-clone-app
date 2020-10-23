@@ -27,4 +27,6 @@ describe('<Feature />', () => {
     expect(queryByText('Watch anywhere. Cancel at any time.')).toBeFalsy();
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('Renders the <Feature /> with just a sub-title', () => {});
 });
