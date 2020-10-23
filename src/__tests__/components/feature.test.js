@@ -4,6 +4,8 @@ import { Feature } from '../../components';
 
 describe('<Feature />', () => {
   it('Renders the <Feature /> with populated data', () => {
-    const { container, getByText } = render();
+    const { container, getByText } = render(
+      <Feature></Feature>
+    );
   });
 });
