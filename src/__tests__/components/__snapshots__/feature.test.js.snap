@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Feature /> Renders the <Feature /> with just a sub-title 1`] = `
+<div
+  class="feature__Container-sc-1y24gor-0 hpCPBF"
+>
+  <h2
+    class="feature__SubTitle-sc-1y24gor-2 JryHG"
+  >
+    Watch anywhere. Cancel at any time.
+  </h2>
+</div>
+`;
+
 exports[`<Feature /> Renders the <Feature /> with just a title 1`] = `
 <div
   class="feature__Container-sc-1y24gor-0 hpCPBF"
