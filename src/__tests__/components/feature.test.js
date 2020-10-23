@@ -5,7 +5,9 @@ import { Feature } from '../../components';
 describe('<Feature />', () => {
   it('Renders the <Feature /> with populated data', () => {
     const { container, getByText } = render(
-      <Feature></Feature>
+      <Feature>
+        <Feature.Title>Unlimited films, TV programmes and more.</Feature.Title>
+      </Feature>,
     );
   });
 });
