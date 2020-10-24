@@ -9,6 +9,8 @@ describe('<Form />', () => {
     const { container, getByText, getByPlaceholderText } = render(
       <Form>
         <Form.Title>Sign In Now</Form.Title>
+
+        <Form.Base></Form.Base>
       </Form>,
     );
   });
