@@ -46,6 +46,8 @@ describe('<Form />', () => {
   });
 
   it('Renders the <Form /> with an error', () => {
-    const { container, getByText, queryByText } = render();
+    const { container, getByText, queryByText } = render(
+      <Form></Form>
+    );
   });
 });
