@@ -42,5 +42,6 @@ describe('<Form />', () => {
     expect(getByText('Sign In').disabled).toBeTruthy();
     expect(getByPlaceholderText('Email address')).toBeTruthy();
     expect(getByPlaceholderText('Password')).toBeTruthy();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
