@@ -38,5 +38,6 @@ describe('<Form />', () => {
       ),
     ).toBeTruthy();
     expect(getByText('Sign In Now')).toBeTruthy();
+    expect(getByText('Sign In')).toBeTruthy();
   });
 });
