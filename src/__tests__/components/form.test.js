@@ -44,4 +44,6 @@ describe('<Form />', () => {
     expect(getByPlaceholderText('Password')).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('Renders the <Form /> with an error', () => {});
 });
