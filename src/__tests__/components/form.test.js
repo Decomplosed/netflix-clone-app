@@ -49,6 +49,7 @@ describe('<Form />', () => {
     const { container, getByText, queryByText } = render(
       <Form>
         <Form.Error>Your email address is already being used</Form.Error>
+        <Form.Submit type='submit'>Sign In</Form.Submit>
       </Form>,
     );
   });
