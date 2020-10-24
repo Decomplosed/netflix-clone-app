@@ -47,7 +47,9 @@ describe('<Form />', () => {
 
   it('Renders the <Form /> with an error', () => {
     const { container, getByText, queryByText } = render(
-      <Form></Form>
+      <Form>
+        <Form.Error>Your email address is already being used</Form.Error>
+      </Form>,
     );
   });
 });
