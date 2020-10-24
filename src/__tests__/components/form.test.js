@@ -12,6 +12,11 @@ describe('<Form />', () => {
 
         <Form.Base>
           <Form.Input placeholder='Email address' onChange={() => {}} />
+          <Form.Input
+            type='password'
+            placeholder='Password'
+            onChange={() => {}}
+          />
         </Form.Base>
       </Form>,
     );
