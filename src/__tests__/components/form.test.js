@@ -21,6 +21,10 @@ describe('<Form />', () => {
             Sign In
           </Form.Submit>
         </Form.Base>
+
+        <Form.Text>
+          New to Netflix? <Form.Link to='/signup'>Sign up now.</Form.Link>
+        </Form.Text>
       </Form>,
     );
   });
