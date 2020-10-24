@@ -54,5 +54,6 @@ describe('<Form />', () => {
     );
 
     expect(getByText('Your email address is already being used')).toBeTruthy();
+    expect(queryByText('Sign In').disabled).toBeFalsy();
   });
 });
