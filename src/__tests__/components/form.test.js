@@ -45,5 +45,7 @@ describe('<Form />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('Renders the <Form /> with an error', () => {});
+  it('Renders the <Form /> with an error', () => {
+    const { container, getByText, queryByText } = render();
+  });
 });
