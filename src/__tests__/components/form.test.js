@@ -5,5 +5,7 @@ import { Form } from '../../components';
 jest.mock('react-router-dom');
 
 describe('<Form />', () => {
-  it('Renders the <Form /> with populated data', () => {});
+  it('Renders the <Form /> with populated data', () => {
+    const { container, getByText, getByPlaceholderText } = render();
+  });
 });
