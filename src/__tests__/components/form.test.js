@@ -17,6 +17,9 @@ describe('<Form />', () => {
             placeholder='Password'
             onChange={() => {}}
           />
+          <Form.Submit type='submit' disabled>
+            Sign In
+          </Form.Submit>
         </Form.Base>
       </Form>,
     );
