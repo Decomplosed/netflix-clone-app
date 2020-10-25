@@ -9,5 +9,6 @@ describe('<Loading />', () => {
     );
 
     expect(getByTestId('loading')).toBeTruthy();
+    expect(getByTestId('loading-picture')).toBeTruthy();
   });
 });
