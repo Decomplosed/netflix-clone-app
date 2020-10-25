@@ -21,5 +21,6 @@ describe('<OptForm />', () => {
         'Ready to watch? Enter your email to create or restart your membership.',
       ),
     ).toBeTruthy();
+    expect(getByPlaceholderText('Email address')).toBeTruthy();
   });
 });
