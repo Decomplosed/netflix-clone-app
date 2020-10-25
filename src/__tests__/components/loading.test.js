@@ -15,5 +15,6 @@ describe('<Loading />', () => {
 
   it('Renders the <Loading.ReleaseBody />', () => {
     const { container } = render(<Loading.ReleaseBody data-testid='loading' />);
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
