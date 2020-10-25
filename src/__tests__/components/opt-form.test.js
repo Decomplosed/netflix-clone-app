@@ -4,6 +4,8 @@ import { OptForm } from '../../components';
 
 describe('<OptForm />', () => {
   it('Renders the <OptForm /> with populated data', () => {
-    const { container, getByText, getByPlaceholderText } = render();
+    const { container, getByText, getByPlaceholderText } = render(
+      <OptForm></OptForm>
+    );
   });
 });
