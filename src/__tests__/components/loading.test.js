@@ -4,6 +4,10 @@ import { Loading } from '../../components';
 
 describe('<Loading />', () => {
   it('Renders the <Loading />', () => {
-    const { container, getByTestId } = render(<Loading src="/images/karl.png" data-testid="loading" />);
+    const { container, getByTestId } = render(
+      <Loading src='/images/karl.png' data-testid='loading' />,
+    );
+
+    expect(getByTestId('loading')).toBeTruthy();
   });
 });
