@@ -16,5 +16,10 @@ describe('<OptForm />', () => {
     );
 
     expect(getByText('Try it now')).toBeTruthy();
+    expect(
+      getByText(
+        'Ready to watch? Enter your email to create or restart your membership.',
+      ),
+    ).toBeTruthy();
   });
 });
