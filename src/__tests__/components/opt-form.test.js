@@ -22,5 +22,6 @@ describe('<OptForm />', () => {
       ),
     ).toBeTruthy();
     expect(getByPlaceholderText('Email address')).toBeTruthy();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
