@@ -8,6 +8,7 @@ describe('<OptForm />', () => {
       <OptForm>
         <OptForm.Input placeholder='Email address' />
         <OptForm.Button>Try it now</OptForm.Button>
+        <OptForm.Break />
       </OptForm>,
     );
   });
