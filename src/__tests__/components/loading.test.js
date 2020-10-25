@@ -12,4 +12,6 @@ describe('<Loading />', () => {
     expect(getByTestId('loading-picture')).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('Renders the <Loading.ReleaseBody />', () => {});
 });
