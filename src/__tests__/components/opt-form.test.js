@@ -7,6 +7,7 @@ describe('<OptForm />', () => {
     const { container, getByText, getByPlaceholderText } = render(
       <OptForm>
         <OptForm.Input placeholder='Email address' />
+        <OptForm.Button>Try it now</OptForm.Button>
       </OptForm>,
     );
   });
