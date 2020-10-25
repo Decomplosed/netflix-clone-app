@@ -13,5 +13,7 @@ describe('<Loading />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('Renders the <Loading.ReleaseBody />', () => {});
+  it('Renders the <Loading.ReleaseBody />', () => {
+    const { container } = render();
+  });
 });
