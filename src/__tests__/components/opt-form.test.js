@@ -14,5 +14,7 @@ describe('<OptForm />', () => {
         </OptForm.Text>
       </OptForm>,
     );
+
+    expect(getByText('Try it now')).toBeTruthy();
   });
 });
