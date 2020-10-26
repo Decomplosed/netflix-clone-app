@@ -7,6 +7,7 @@ describe('<Profiles />', () => {
     const { container, getByText, getByTestId } = render(
       <Profiles>
         <Profiles.Title>Who's watching?</Profiles.Title>
+        <Profiles.List></Profiles.List>
       </Profiles>,
     );
   });
