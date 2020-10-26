@@ -13,7 +13,7 @@ describe('<Profiles />', () => {
               src='/images/karl.png'
               data-testid='profile-picture'
             />
-            <Profiles.Name>Karl</Profiles.Name>
+            <Profiles.Name>Bart</Profiles.Name>
           </Profiles.User>
         </Profiles.List>
       </Profiles>,
@@ -21,5 +21,6 @@ describe('<Profiles />', () => {
 
     expect(getByText("Who's watching?")).toBeTruthy();
     expect(getByTestId('profile-picture')).toBeTruthy();
+    expect(getByText('Bart'));
   });
 });
