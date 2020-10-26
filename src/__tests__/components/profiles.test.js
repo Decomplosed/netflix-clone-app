@@ -37,5 +37,7 @@ describe('<Profiles />', () => {
         </Profiles.List>
       </Profiles>,
     );
+
+    expect(getByText("Who's watching?")).toBeTruthy();
   });
 });
