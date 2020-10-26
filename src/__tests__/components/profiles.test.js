@@ -4,6 +4,6 @@ import { Profiles } from '../../components';
 
 describe('<Profiles />', () => {
   it('Renders the <Profiles /> with populated data', () => {
-    const { container, getByText, getByTestId } = render();
+    const { container, getByText, getByTestId } = render(<Profiles></Profiles>);
   });
 });
