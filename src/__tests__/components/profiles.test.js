@@ -4,6 +4,10 @@ import { Profiles } from '../../components';
 
 describe('<Profiles />', () => {
   it('Renders the <Profiles /> with populated data', () => {
-    const { container, getByText, getByTestId } = render(<Profiles></Profiles>);
+    const { container, getByText, getByTestId } = render(
+      <Profiles>
+        <Profiles.Title>Who's watching?</Profiles.Title>
+      </Profiles>,
+    );
   });
 });
