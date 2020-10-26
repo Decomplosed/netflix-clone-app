@@ -40,5 +40,6 @@ describe('<Profiles />', () => {
 
     expect(getByText("Who's watching?")).toBeTruthy();
     expect(getByTestId('profile-picture-misc')).toBeTruthy();
+    expect(getByText('Bart'));
   });
 });
