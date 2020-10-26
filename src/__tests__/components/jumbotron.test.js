@@ -7,7 +7,9 @@ describe('<Jumbotron />', () => {
   it('Renders the <Jumbotron /> with populated data', () => {
     const { container, getByText, getByAltText, getByTestId } = render(
       <Jumbotron.Container>
-        {jumboData.map((item) => ())}
+        {jumboData.map((item) => (
+          <Jumbotron key={item.id}></Jumbotron>
+        ))}
       </Jumbotron.Container>,
     );
   });
