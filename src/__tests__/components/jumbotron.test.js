@@ -6,7 +6,9 @@ import jumboData from '../../fixtures/jumbo';
 describe('<Jumbotron />', () => {
   it('Renders the <Jumbotron /> with populated data', () => {
     const { container, getByText, getByAltText, getByTestId } = render(
-      <Jumbotron.Container></Jumbotron.Container>,
+      <Jumbotron.Container>
+        {jumboData.map((item) => ())}
+      </Jumbotron.Container>,
     );
   });
 });
