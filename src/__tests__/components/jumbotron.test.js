@@ -3,4 +3,6 @@ import { render } from '@testing-library/react';
 import { Jumbotron } from '../../components';
 import jumboData from '../../fixtures/jumbo';
 
-describe('<Jumbotron />', () => {});
+describe('<Jumbotron />', () => {
+  it('Renders the <Jumbotron /> with populated data', () => {});
+});
