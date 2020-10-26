@@ -25,5 +25,7 @@ describe('<Profiles />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('Renders the <Profiles /> with populated data but misc profile image', () => {});
+  it('Renders the <Profiles /> with populated data but misc profile image', () => {
+    const { container, getByText, getByTestId } = render();
+  });
 });
