@@ -24,4 +24,6 @@ describe('<Profiles />', () => {
     expect(getByText('Bart'));
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('Renders the <Profiles /> with populated data but misc profile image', () => {});
 });
