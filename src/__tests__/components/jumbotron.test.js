@@ -11,6 +11,7 @@ describe('<Jumbotron />', () => {
           <Jumbotron key={item.id}>
             <Jumbotron.Pane>
               <Jumbotron.Title>{item.title}</Jumbotron.Title>
+              <Jumbotron.SubTitle>{item.subTitle}</Jumbotron.SubTitle>
             </Jumbotron.Pane>
           </Jumbotron>
         ))}
