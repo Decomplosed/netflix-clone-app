@@ -8,7 +8,9 @@ describe('<Jumbotron />', () => {
     const { container, getByText, getByAltText, getByTestId } = render(
       <Jumbotron.Container>
         {jumboData.map((item) => (
-          <Jumbotron key={item.id}></Jumbotron>
+          <Jumbotron key={item.id}>
+            <Jumbotron.Pane></Jumbotron.Pane>
+          </Jumbotron>
         ))}
       </Jumbotron.Container>,
     );
