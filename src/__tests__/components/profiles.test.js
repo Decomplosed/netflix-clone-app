@@ -26,6 +26,16 @@ describe('<Profiles />', () => {
   });
 
   it('Renders the <Profiles /> with populated data but misc profile image', () => {
-    const { container, getByText, getByTestId } = render();
+    const { container, getByText, getByTestId } = render(
+      <Profiles>
+        <Profiles.Title>Who's watching?</Profiles.Title>
+        <Profiles.List>
+          <Profiles.User onClick={() => {}}>
+            <Profiles.Picture data-testid='profile-picture-misc' />
+            <Profiles.Name>Bart</Profiles.Name>
+          </Profiles.User>
+        </Profiles.List>
+      </Profiles>,
+    );
   });
 });
