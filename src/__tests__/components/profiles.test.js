@@ -20,5 +20,6 @@ describe('<Profiles />', () => {
     );
 
     expect(getByText("Who's watching?")).toBeTruthy();
+    expect(getByTestId('profile-picture')).toBeTruthy();
   });
 });
