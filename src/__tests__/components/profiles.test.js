@@ -13,6 +13,7 @@ describe('<Profiles />', () => {
               src='/images/karl.png'
               data-testid='profile-picture'
             />
+            <Profiles.Name>Karl</Profiles.Name>
           </Profiles.User>
         </Profiles.List>
       </Profiles>,
