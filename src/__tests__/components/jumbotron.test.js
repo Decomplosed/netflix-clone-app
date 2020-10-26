@@ -9,7 +9,9 @@ describe('<Jumbotron />', () => {
       <Jumbotron.Container>
         {jumboData.map((item) => (
           <Jumbotron key={item.id}>
-            <Jumbotron.Pane></Jumbotron.Pane>
+            <Jumbotron.Pane>
+              <Jumbotron.Title>{item.title}</Jumbotron.Title>
+            </Jumbotron.Pane>
           </Jumbotron>
         ))}
       </Jumbotron.Container>,
