@@ -22,5 +22,6 @@ describe('<Profiles />', () => {
     expect(getByText("Who's watching?")).toBeTruthy();
     expect(getByTestId('profile-picture')).toBeTruthy();
     expect(getByText('Bart'));
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
