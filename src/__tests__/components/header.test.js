@@ -21,6 +21,8 @@ describe('<Header />', () => {
   });
 
   it('Renders the basic <Header /> without a background', () => {
-    const { container, getByText, queryByTestId } = render();
+    const { container, getByText, queryByTestId } = render(
+      <Header bg={false}></Header>,
+    );
   });
 });
