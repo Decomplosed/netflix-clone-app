@@ -33,5 +33,6 @@ describe('<Jumbotron />', () => {
         'Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.',
       ),
     ).toBeTruthy();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
