@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Renders the basic <Header /> with a background 1`] = `
+<div
+  class="header__Background-sc-19jcj5i-0 bzBYTS"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-sc-19jcj5i-1 doewxm"
+  >
+    <p
+      class="header__Link-sc-19jcj5i-2 cdJges"
+    >
+      Hello I am a link!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Header /> Renders the basic <Header /> without a background 1`] = `
+<div
+  class="header__Container-sc-19jcj5i-1 doewxm"
+>
+  <p
+    class="header__Link-sc-19jcj5i-2 kvZKjY"
+  >
+    Hello I am a link!
+  </p>
+</div>
+`;
