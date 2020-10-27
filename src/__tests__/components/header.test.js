@@ -22,7 +22,9 @@ describe('<Header />', () => {
 
   it('Renders the basic <Header /> without a background', () => {
     const { container, getByText, queryByTestId } = render(
-      <Header bg={false}></Header>,
+      <Header bg={false}>
+        <Header.Frame></Header.Frame>
+      </Header>,
     );
   });
 });
