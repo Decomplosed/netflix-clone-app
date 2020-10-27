@@ -8,7 +8,9 @@ describe('<Header />', () => {
   it('Renders the basic <Header /> with a background', () => {
     const { container, getByText, getByTestId } = render(
       <Header>
-        <Header.Frame></Header.Frame>
+        <Header.Frame>
+          <Header.Logo src='/logo.svg' alt='Netflix' />
+        </Header.Frame>
       </Header>,
     );
   });
