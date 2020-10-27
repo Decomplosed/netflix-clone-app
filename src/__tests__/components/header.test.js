@@ -16,5 +16,6 @@ describe('<Header />', () => {
     );
 
     expect(getByText('Hello I am a link!')).toBeTruthy();
+    expect(getByTestId('header-bg')).toBeTruthy();
   });
 });
