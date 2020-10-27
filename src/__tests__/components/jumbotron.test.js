@@ -24,5 +24,7 @@ describe('<Jumbotron />', () => {
         ))}
       </Jumbotron.Container>,
     );
+
+    expect(getByText('Enjoy on your TV.')).toBeTruthy();
   });
 });
