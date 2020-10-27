@@ -14,5 +14,7 @@ describe('<Header />', () => {
         </Header.Frame>
       </Header>,
     );
+
+    expect(getByText('Hello I am a link!')).toBeTruthy();
   });
 });
