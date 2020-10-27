@@ -35,4 +35,6 @@ describe('<Header />', () => {
     expect(queryByTestId('header-bg')).toBeFalsy();
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('Renders the full <Header> with a background', () => {});
 });
