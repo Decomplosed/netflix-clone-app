@@ -36,5 +36,7 @@ describe('<Header />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('Renders the full <Header> with a background', () => {});
+  it('Renders the full <Header> with a background', () => {
+    const { container, getByText, getByTestId } = render();
+  });
 });
