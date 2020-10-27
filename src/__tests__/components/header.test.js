@@ -19,4 +19,8 @@ describe('<Header />', () => {
     expect(getByTestId('header-bg')).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('Renders the basic <Header /> without a background', () => {
+    const { container, getByText, queryByTestId } = render();
+  });
 });
