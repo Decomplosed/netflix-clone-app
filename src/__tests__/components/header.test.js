@@ -37,6 +37,8 @@ describe('<Header />', () => {
   });
 
   it('Renders the full <Header> with a background', () => {
-    const { container, getByText, getByTestId } = render();
+    const { container, getByText, getByTestId } = render(
+      <Header src="joker1" dontShowOnSmallViewPort></Header>
+    );
   });
 });
