@@ -10,6 +10,7 @@ describe('<Header />', () => {
       <Header>
         <Header.Frame>
           <Header.Logo src='/logo.svg' alt='Netflix' />
+          <Header.TextLink active='true'>Hello I am a link!</Header.TextLink>
         </Header.Frame>
       </Header>,
     );
