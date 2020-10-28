@@ -58,7 +58,9 @@ describe('<Header />', () => {
                   <Header.Picture src='/images/karl.png' />
                   <Header.TextLink>Bart Man</Header.TextLink>
                 </Header.Group>
-                <Header.Group></Header.Group>
+                <Header.Group>
+                  <Header.TextLink onClick={() => {}}>Sign out</Header.TextLink>
+                </Header.Group>
               </Header.Dropdown>
             </Header.Profile>
           </Header.Group>
