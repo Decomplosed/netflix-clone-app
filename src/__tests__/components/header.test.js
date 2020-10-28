@@ -75,5 +75,6 @@ describe('<Header />', () => {
     );
 
     expect(getByTestId('search-input')).toBeTruthy();
+    expect(getByTestId('search-input').value).toBe('Joker');
   });
 });
