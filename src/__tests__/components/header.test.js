@@ -65,6 +65,8 @@ describe('<Header />', () => {
             </Header.Profile>
           </Header.Group>
         </Header.Frame>
+
+        <Header.Feature></Header.Feature>
       </Header>,
     );
   });
