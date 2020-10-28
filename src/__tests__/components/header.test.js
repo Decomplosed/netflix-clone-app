@@ -49,7 +49,9 @@ describe('<Header />', () => {
               Films
             </Header.TextLink>
           </Header.Group>
-          <Header.Group></Header.Group>
+          <Header.Group>
+            <Header.Search searchTerm='Joker' setSearchTerm={() => {}} />
+          </Header.Group>
         </Header.Frame>
       </Header>,
     );
