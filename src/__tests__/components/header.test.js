@@ -51,7 +51,9 @@ describe('<Header />', () => {
           </Header.Group>
           <Header.Group>
             <Header.Search searchTerm='Joker' setSearchTerm={() => {}} />
-            <Header.Profile></Header.Profile>
+            <Header.Profile>
+              <Header.Picture src='/images/karl.png' />
+            </Header.Profile>
           </Header.Group>
         </Header.Frame>
       </Header>,
