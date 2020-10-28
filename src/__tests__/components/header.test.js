@@ -79,5 +79,6 @@ describe('<Header />', () => {
     fireEvent.change(getByTestId('search-input'), {
       target: { value: 'Simpsons' },
     });
+    fireEvent.click(getByTestId('search-click'));
   });
 });
