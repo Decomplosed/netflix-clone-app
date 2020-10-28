@@ -28,3 +28,106 @@ exports[`<Header /> Renders the basic <Header /> without a background 1`] = `
   </p>
 </div>
 `;
+
+exports[`<Header /> Renders the full <Header> with a background 1`] = `
+<div
+  class="header__Background-sc-19jcj5i-0 bPdakY"
+  data-testid="header-bg"
+  src="joker1"
+>
+  <div
+    class="header__Container-sc-19jcj5i-1 doewxm"
+  >
+    <div
+      class="header__Group-sc-19jcj5i-3 fZRhLh"
+    >
+      <p
+        class="header__Link-sc-19jcj5i-2 kvZKjY"
+      >
+        Series
+      </p>
+      <p
+        class="header__Link-sc-19jcj5i-2 kvZKjY"
+      >
+        Films
+      </p>
+    </div>
+    <div
+      class="header__Group-sc-19jcj5i-3 fZRhLh"
+    >
+      <div
+        class="header__Search-sc-19jcj5i-12 fqSswf"
+      >
+        <button
+          class="header__SearchIcon-sc-19jcj5i-14 dAmYIn"
+          data-testid="search-click"
+        >
+          <img
+            alt="Search"
+            src="/images/icons/search.png"
+          />
+        </button>
+        <input
+          class="header__SearchInput-sc-19jcj5i-13 ikBMLR"
+          data-testid="search-input"
+          placeholder="Search films and series"
+          value="Joker"
+        />
+      </div>
+      <div
+        class="header__Profile-sc-19jcj5i-9 hSgYOx"
+      >
+        <button
+          class="header__Picture-sc-19jcj5i-7 lbwHqG"
+          src="/images/users//images/karl.png.png"
+        />
+        <div
+          class="header__Dropdown-sc-19jcj5i-8 bVGkMn"
+        >
+          <div
+            class="header__Group-sc-19jcj5i-3 fZRhLh"
+          >
+            <button
+              class="header__Picture-sc-19jcj5i-7 lbwHqG"
+              src="/images/users//images/karl.png.png"
+            />
+            <p
+              class="header__Link-sc-19jcj5i-2 kvZKjY"
+            >
+              Bart Man
+            </p>
+          </div>
+          <div
+            class="header__Group-sc-19jcj5i-3 fZRhLh"
+          >
+            <p
+              class="header__Link-sc-19jcj5i-2 kvZKjY"
+            >
+              Sign out
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="header__Container-sc-19jcj5i-1 header__Feature-sc-19jcj5i-10 doewxm meFgV"
+  >
+    <h2
+      class="header__FeatureCallOut-sc-19jcj5i-11 jyFuux"
+    >
+      Watch Joker Now
+    </h2>
+    <p
+      class="header__Text-sc-19jcj5i-4 jTALVQ"
+    >
+      Forever alone in a crowd...
+    </p>
+    <button
+      class="header__PlayButton-sc-19jcj5i-15 izSaAL"
+    >
+      Play
+    </button>
+  </div>
+</div>
+`;
