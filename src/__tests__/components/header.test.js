@@ -51,6 +51,7 @@ describe('<Header />', () => {
           </Header.Group>
           <Header.Group>
             <Header.Search searchTerm='Joker' setSearchTerm={() => {}} />
+            <Header.Profile></Header.Profile>
           </Header.Group>
         </Header.Frame>
       </Header>,
