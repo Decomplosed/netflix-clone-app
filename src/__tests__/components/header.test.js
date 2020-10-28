@@ -45,6 +45,9 @@ describe('<Header />', () => {
             <Header.TextLink active={false} onClick={() => {}}>
               Series
             </Header.TextLink>
+            <Header.TextLink active onClick={() => {}}>
+              Films
+            </Header.TextLink>
           </Header.Group>
         </Header.Frame>
       </Header>,
