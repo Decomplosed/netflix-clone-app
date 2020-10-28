@@ -88,5 +88,6 @@ describe('<Header />', () => {
     expect(getByText('Sign out')).toBeTruthy();
     expect(getByText('Forever alone in a crowd...')).toBeTruthy();
     expect(getByText('Play')).toBeTruthy();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
