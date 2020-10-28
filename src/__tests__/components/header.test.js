@@ -69,6 +69,7 @@ describe('<Header />', () => {
         <Header.Feature>
           <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
           <Header.Text>Forever alone in a crowd...</Header.Text>
+          <Header.PlayButton>Play</Header.PlayButton>
         </Header.Feature>
       </Header>,
     );
