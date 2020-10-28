@@ -84,5 +84,6 @@ describe('<Header />', () => {
     expect(getByText('Series')).toBeTruthy();
     expect(getByText('Films')).toBeTruthy();
     expect(getByText('Bart Man')).toBeTruthy();
+    expect(getByText('Watch Joker Now')).toBeTruthy();
   });
 });
