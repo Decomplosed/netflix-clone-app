@@ -73,5 +73,7 @@ describe('<Header />', () => {
         </Header.Feature>
       </Header>,
     );
+
+    expect(getByTestId('search-input')).toBeTruthy();
   });
 });
