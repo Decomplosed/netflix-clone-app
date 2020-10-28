@@ -87,5 +87,6 @@ describe('<Header />', () => {
     expect(getByText('Watch Joker Now')).toBeTruthy();
     expect(getByText('Sign out')).toBeTruthy();
     expect(getByText('Forever alone in a crowd...')).toBeTruthy();
+    expect(getByText('Play')).toBeTruthy();
   });
 });
