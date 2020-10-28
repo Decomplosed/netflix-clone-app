@@ -66,7 +66,9 @@ describe('<Header />', () => {
           </Header.Group>
         </Header.Frame>
 
-        <Header.Feature></Header.Feature>
+        <Header.Feature>
+          <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
+        </Header.Feature>
       </Header>,
     );
   });
