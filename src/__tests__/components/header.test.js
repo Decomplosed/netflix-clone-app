@@ -82,5 +82,6 @@ describe('<Header />', () => {
     fireEvent.click(getByTestId('search-click'));
 
     expect(getByText('Series')).toBeTruthy();
+    expect(getByText('Films')).toBeTruthy();
   });
 });
