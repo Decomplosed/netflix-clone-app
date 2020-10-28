@@ -40,7 +40,9 @@ describe('<Header />', () => {
     const { container, getByText, getByTestId } = render(
       <Header src='joker1' dontShowOnSmallViewPort>
         <Header.Frame>
-          <Header.Group></Header.Group>
+          <Header.Group>
+            <Header.Logo src='/images/logo.svg' alt='Netflix' />
+          </Header.Group>
         </Header.Frame>
       </Header>,
     );
