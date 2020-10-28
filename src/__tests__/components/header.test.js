@@ -80,5 +80,7 @@ describe('<Header />', () => {
       target: { value: 'Simpsons' },
     });
     fireEvent.click(getByTestId('search-click'));
+
+    expect(getByText('Series')).toBeTruthy();
   });
 });
