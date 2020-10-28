@@ -76,5 +76,8 @@ describe('<Header />', () => {
 
     expect(getByTestId('search-input')).toBeTruthy();
     expect(getByTestId('search-input').value).toBe('Joker');
+    fireEvent.change(getByTestId('search-input'), {
+      target: { value: 'Simpsons' },
+    });
   });
 });
