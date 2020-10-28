@@ -56,6 +56,7 @@ describe('<Header />', () => {
               <Header.Dropdown>
                 <Header.Group>
                   <Header.Picture src='/images/karl.png' />
+                  <Header.TextLink>Bart Man</Header.TextLink>
                 </Header.Group>
               </Header.Dropdown>
             </Header.Profile>
