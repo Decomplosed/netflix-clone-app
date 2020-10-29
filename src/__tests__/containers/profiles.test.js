@@ -4,4 +4,6 @@ import { SelectProfileContainer } from '../../containers/profiles';
 
 jest.mock('react-router-dom');
 
-describe('<Profiles />', () => {});
+describe('<Profiles />', () => {
+  it('Renders the <Profiles />', () => {});
+});
