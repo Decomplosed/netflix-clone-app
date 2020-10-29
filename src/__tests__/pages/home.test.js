@@ -8,4 +8,5 @@ test('Renders the homepage', () => {
   const { getByText, getAllByText, getAllByPlaceholderText } = render(<Home />);
 
   expect(getByText('Unlimited films, TV programmes and more.')).toBeTruthy();
+  expect(getByText('Watch anywhere. Cancel at any time.')).toBeTruthy();
 });
