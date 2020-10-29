@@ -5,5 +5,5 @@ import { Home } from '../../pages';
 jest.mock('react-router-dom');
 
 test('Renders the homepage', () => {
-  const { getByText, getAllByText, getAllByPlaceholderText } = render();
+  const { getByText, getAllByText, getAllByPlaceholderText } = render(<Home />);
 });
