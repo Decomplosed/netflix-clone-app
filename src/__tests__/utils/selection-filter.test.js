@@ -31,4 +31,5 @@ test('selectionFilter with legitimate data', () => {
   const slides = selectionFilter({ series, films });
   expect(slides.films[0].title).toBe('Drama');
   expect(slides.films[0].data[0].description).toBe('Great film...');
+  expect(slides.films[0].data[0].genre).toBe('drama');
 });
