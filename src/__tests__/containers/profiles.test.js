@@ -13,5 +13,6 @@ describe('<Profiles />', () => {
     );
 
     fireEvent.click(getByTestId('user-profile'));
+    expect(setProfile).toHaveBeenCalled();
   });
 });
