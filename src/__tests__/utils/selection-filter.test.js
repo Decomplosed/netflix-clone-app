@@ -27,4 +27,6 @@ test('selectionFilter with legitimate data', () => {
       slug: 'the-prestige',
     },
   ];
+
+  const slides = selectionFilter({ series, films });
 });
