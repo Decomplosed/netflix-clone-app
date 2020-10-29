@@ -32,4 +32,5 @@ test('selectionFilter with legitimate data', () => {
   expect(slides.films[0].title).toBe('Drama');
   expect(slides.films[0].data[0].description).toBe('Great film...');
   expect(slides.films[0].data[0].genre).toBe('drama');
+  expect(slides.films[0].data[0].maturity).toBe('15');
 });
