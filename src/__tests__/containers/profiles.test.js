@@ -8,6 +8,6 @@ describe('<Profiles />', () => {
   it('Renders the <Profiles />', () => {
     const user = { displayName: 'Bart', photoURL: 'profile.png' };
     const setProfile = jest.fn();
-    const { getByTestId } = render(<SelectProfileContainer />);
+    const { getByTestId } = render(<SelectProfileContainer user={user} setProfile={setProfile} />);
   });
 });
