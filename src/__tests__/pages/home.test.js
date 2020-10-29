@@ -6,4 +6,6 @@ jest.mock('react-router-dom');
 
 test('Renders the homepage', () => {
   const { getByText, getAllByText, getAllByPlaceholderText } = render(<Home />);
+
+  expect(getByText('Unlimited films, TV programmes and more.')).toBeTruthy();
 });
