@@ -3,3 +3,5 @@ import { render, fireEvent } from '@testing-library/react';
 import { SelectProfileContainer } from '../../containers/profiles';
 
 jest.mock('react-router-dom');
+
+describe('<Profiles />', () => {});
