@@ -5,5 +5,7 @@ import { SelectProfileContainer } from '../../containers/profiles';
 jest.mock('react-router-dom');
 
 describe('<Profiles />', () => {
-  it('Renders the <Profiles />', () => {});
+  it('Renders the <Profiles />', () => {
+    const user = { displayName: 'Bart', photoURL: 'profile.png' };
+  });
 });
