@@ -29,4 +29,5 @@ test('selectionFilter with legitimate data', () => {
   ];
 
   const slides = selectionFilter({ series, films });
+  expect(slides.films[0].title).toBe('Drama');
 });
