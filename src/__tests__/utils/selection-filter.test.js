@@ -17,3 +17,13 @@ const series = [
     ],
   },
 ];
+const films = [
+  {
+    id: 'film-1x',
+    title: 'The Prestige',
+    description: 'Great film...',
+    genre: 'drama',
+    maturity: '15',
+    slug: 'the-prestige',
+  },
+];
