@@ -32,6 +32,7 @@ describe('<SignIn />', () => {
       expect(getByPlaceholderText('Email address').value).toBe(
         'bartman@gmail.com',
       );
+      expect(getByPlaceholderText('Password').value).toBe('password');
     });
   });
 });
