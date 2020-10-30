@@ -14,9 +14,9 @@ describe('<SignIn />', () => {
   it('Renders the sign in page with a form submission', async () => {
     const { getByTestId, getByPlaceholderText, queryByTestId } = render(
       <Router>
-        <FirebaseContext.Provider
-          value={{ firebase }}
-        ></FirebaseContext.Provider>
+        <FirebaseContext.Provider value={{ firebase }}>
+          <SignIn />
+        </FirebaseContext.Provider>
       </Router>,
     );
   });
