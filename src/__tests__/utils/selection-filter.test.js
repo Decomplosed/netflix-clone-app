@@ -35,4 +35,6 @@ test('selectionFilter with legitimate data', () => {
   expect(slides.films[0].data[0].maturity).toBe('15');
 });
 
-test('selectionFilter with no data', () => {});
+test('selectionFilter with no data', () => {
+  const slides = selectionFilter();
+});
