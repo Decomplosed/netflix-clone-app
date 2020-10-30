@@ -12,6 +12,8 @@ jest.mock('react-router-dom', () => ({
 
 describe('<SignIn />', () => {
   it('Renders the sign in page with a form submission', async () => {
-    const { getByTestId, getByPlaceholderText, queryByTestId } = render();
+    const { getByTestId, getByPlaceholderText, queryByTestId } = render(
+      <Router></Router>,
+    );
   });
 });
