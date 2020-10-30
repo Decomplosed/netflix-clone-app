@@ -28,6 +28,10 @@ describe('<SignIn />', () => {
         target: { value: 'password' },
       });
       fireEvent.click(getByTestId('sign-in'));
+
+      expect(getByPlaceholderText('Email address').value).toBe(
+        'bartman@gmail.com',
+      );
     });
   });
 });
