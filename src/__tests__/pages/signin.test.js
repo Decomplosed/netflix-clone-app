@@ -20,6 +20,8 @@ describe('<SignIn />', () => {
       </Router>,
     );
 
-    await act(async () => {});
+    await act(async () => {
+      await fireEvent.change(getByPlaceholderText('Email address'), { target: { value: 'bartman@gmail.com' } });
+    });
   });
 });
