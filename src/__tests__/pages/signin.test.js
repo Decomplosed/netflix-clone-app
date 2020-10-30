@@ -27,6 +27,7 @@ describe('<SignIn />', () => {
       await fireEvent.change(getByPlaceholderText('Password'), {
         target: { value: 'password' },
       });
+      fireEvent.click(getByTestId('sign-in'));
     });
   });
 });
