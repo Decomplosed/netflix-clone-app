@@ -34,3 +34,5 @@ test('selectionFilter with legitimate data', () => {
   expect(slides.films[0].data[0].genre).toBe('drama');
   expect(slides.films[0].data[0].maturity).toBe('15');
 });
+
+test('selectionFilter with no data', () => {});
