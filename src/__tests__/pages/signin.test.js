@@ -10,6 +10,8 @@ jest.mock('react-router-dom', () => ({
   useHistory: () => ({}),
 }));
 
+const firebase = {};
+
 describe('<SignIn />', () => {
   it('Renders the sign in page with a form submission', async () => {
     const { getByTestId, getByPlaceholderText, queryByTestId } = render(
