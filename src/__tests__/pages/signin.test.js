@@ -12,7 +12,7 @@ jest.mock('react-router-dom', () => ({
 
 const firebase = {
   auth: jest.fn(() => ({
-    signInWithEmailAndPassword: jest.fn(() => ),
+    signInWithEmailAndPassword: jest.fn(() => Promise.resolve('I am signed in!')),
   })),
 };
 
