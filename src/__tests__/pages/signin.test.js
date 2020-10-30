@@ -10,4 +10,6 @@ jest.mock('react-router-dom', () => ({
   useHistory: () => ({}),
 }));
 
-describe('<SignIn />', () => {});
+describe('<SignIn />', () => {
+  it('Renders the sign in page with a form submission', async () => {});
+});
