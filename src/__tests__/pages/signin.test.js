@@ -19,5 +19,7 @@ describe('<SignIn />', () => {
         </FirebaseContext.Provider>
       </Router>,
     );
+
+    await act(async () => {});
   });
 });
