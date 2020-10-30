@@ -40,4 +40,5 @@ test('selectionFilter with no data', () => {
   expect(slides.series[0].title).toBe('Documentaries');
   expect(slides.films[0].title).toBe('Drama');
   expect(slides.series[0].data).toBe(undefined);
+  expect(slides.films[0].data).toBe(undefined);
 });
