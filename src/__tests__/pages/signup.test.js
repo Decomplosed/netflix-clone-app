@@ -32,6 +32,10 @@ describe('<SignUp />', () => {
       </Router>,
     );
 
-    await act(async () => {});
+    await act(async () => {
+      await fireEvent.change(getByPlaceholderText('First name'), {
+        target: { value: 'Bart' },
+      });
+    });
   });
 });
