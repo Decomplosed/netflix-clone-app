@@ -43,6 +43,10 @@ describe('<SignUp />', () => {
         target: { value: 'password' },
       });
       fireEvent.click(getByTestId('sign-up'));
+
+      expect(getByPlaceholderText('Email address').value).toBe(
+        'bartman@gmail.com',
+      );
     });
   });
 });
