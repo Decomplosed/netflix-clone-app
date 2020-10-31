@@ -26,7 +26,7 @@ describe('<SignUp />', () => {
   it('Renders the sign up page with a form submission', async () => {
     const { getByTestId, getByPlaceholderText, queryByTestId } = render(
       <Router>
-        <FirebaseContext.Provider></FirebaseContext.Provider>
+        <FirebaseContext.Provider value={{ firebase }}></FirebaseContext.Provider>
       </Router>
     );
   });
