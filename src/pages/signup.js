@@ -48,12 +48,12 @@ export default function SignUp() {
           {error && <Form.Error>{error}</Form.Error>}
           <Form.Base onSubmit={handleSignUp} method='POST'>
             <Form.Input
-              placeholder='First Name'
+              placeholder='First name'
               value={firstName}
               onChange={({ target }) => setFirstName(target.value)}
             />
             <Form.Input
-              placeholder='Email Address'
+              placeholder='Email address'
               value={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)}
             />
