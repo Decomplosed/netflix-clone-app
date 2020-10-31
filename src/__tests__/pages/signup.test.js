@@ -22,4 +22,6 @@ const firebase = {
   })),
 };
 
-describe('<SignUp />', () => {});
+describe('<SignUp />', () => {
+  it('Renders the sign up page with a form submission', async () => {});
+});
