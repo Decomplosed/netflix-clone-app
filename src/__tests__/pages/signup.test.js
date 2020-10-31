@@ -13,7 +13,13 @@ jest.mock('react-router-dom', () => ({
 const firebase = {
   auth: jest.fn(() => ({
     createUserWithEmailAndPassword: jest.fn(() =>
-      Promise.resolve({ user: { updateProfile: jest.fn(() => Promise.resolve('I am signed up!')) } })
+      Promise.resolve({
+        user: {
+          updateProfile: jest.fn(() => Promise.resolve('I am signed up!')),
+        },
+      }),
     ),
   })),
 };
+
+describe('<SignUp />', () => {});
