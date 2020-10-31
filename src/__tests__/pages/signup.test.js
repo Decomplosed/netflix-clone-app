@@ -37,7 +37,7 @@ describe('<SignUp />', () => {
         target: { value: 'Bart' },
       });
       await fireEvent.change(getByPlaceholderText('Email address'), {
-        target: { value: 'karl@gmail.com' },
+        target: { value: 'bartman@gmail.com' },
       });
     });
   });
