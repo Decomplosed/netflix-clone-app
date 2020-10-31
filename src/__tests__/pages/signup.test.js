@@ -10,4 +10,6 @@ jest.mock('react-router-dom', () => ({
   useHistory: () => ({}),
 }));
 
-const firebase = {};
+const firebase = {
+  auth: jest.fn(() => ({})),
+};
