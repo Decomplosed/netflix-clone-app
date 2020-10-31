@@ -23,5 +23,7 @@ const firebase = {
 };
 
 describe('<SignUp />', () => {
-  it('Renders the sign up page with a form submission', async () => {});
+  it('Renders the sign up page with a form submission', async () => {
+    const { getByTestId, getByPlaceholderText, queryByTestId } = render();
+  });
 });
