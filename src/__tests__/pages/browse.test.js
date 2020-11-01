@@ -58,6 +58,7 @@ const firebase = {
   firestore: jest.fn(() => ({
     collection: jest.fn(() => ({
       get: jest.fn(() => Promise.resolve('I get content!')),
+      add: jest.fn(() => Promise.resolve('I add content!')),
     })),
   })),
 };
