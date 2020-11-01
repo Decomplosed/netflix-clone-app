@@ -27,5 +27,21 @@ jest.mock('../../utils', () => ({
         ],
       },
     ],
+    films: [
+      {
+        title: 'Suspense',
+        data: [
+          {
+            id: 'film-1x',
+            title: 'Amanda Knox',
+            description:
+              'Amanda Marie Knox is an American woman who spent almost four years in an Italian prison.',
+            genre: 'documentaries',
+            maturity: '12',
+            slug: 'amanda-knox',
+          },
+        ],
+      },
+    ],
   }),
 }));
