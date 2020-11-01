@@ -46,4 +46,6 @@ jest.mock('../../utils', () => ({
   }),
 }));
 
-const firebase = {}
+const firebase = {
+  auth: jest.fn(() => ({})),
+};
