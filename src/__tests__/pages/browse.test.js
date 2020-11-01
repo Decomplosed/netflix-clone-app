@@ -62,3 +62,5 @@ const firebase = {
     })),
   })),
 };
+
+describe('<Browse />', () => {});
