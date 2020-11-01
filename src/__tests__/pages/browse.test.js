@@ -47,5 +47,11 @@ jest.mock('../../utils', () => ({
 }));
 
 const firebase = {
-  auth: jest.fn(() => ({})),
+  auth: jest.fn(() => ({
+    currentUser: {
+      displayName: 'Bart',
+      photoURL: 1,
+      email: 'bartman@gmail.com',
+    },
+  })),
 };
