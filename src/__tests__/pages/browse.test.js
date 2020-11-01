@@ -63,4 +63,6 @@ const firebase = {
   })),
 };
 
-describe('<Browse />', () => {});
+describe('<Browse />', () => {
+  it('Renders the browse page with <SelectProfileContainer />', () => {});
+});
