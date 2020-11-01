@@ -56,6 +56,8 @@ const firebase = {
     signOut: jest.fn(() => Promise.resolve('I am signed out!')),
   })),
   firestore: jest.fn(() => ({
-    collection: jest.fn(() => ({})),
+    collection: jest.fn(() => ({
+      get: jest.fn(() => Promise.resolve('I get content!')),
+    })),
   })),
 };
