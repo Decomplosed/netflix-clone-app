@@ -9,4 +9,6 @@ jest.mock('react-router-dom', () => ({
   useHistory: () => ({}),
 }));
 
-jest.mock('../../utils', () => ({}));
+jest.mock('../../utils', () => ({
+  selectionFilter: () => ({})
+}));
