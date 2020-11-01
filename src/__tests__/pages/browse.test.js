@@ -66,7 +66,9 @@ const firebase = {
 describe('<Browse />', () => {
   it('Renders the browse page with <SelectProfileContainer />', async () => {
     const { getByTestId, getByPlaceholderText, queryByTestId } = render(
-      <Router></Router>,
+      <Router>
+        <FirebaseContext.Provider></FirebaseContext.Provider>
+      </Router>,
     );
   });
 });
