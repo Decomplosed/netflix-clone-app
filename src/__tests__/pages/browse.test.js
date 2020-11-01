@@ -10,5 +10,22 @@ jest.mock('react-router-dom', () => ({
 }));
 
 jest.mock('../../utils', () => ({
-  selectionFilter: () => ({})
+  selectionFilter: () => ({
+    series: [
+      {
+        title: 'Documentaries',
+        data: [
+          {
+            id: 'series-1x',
+            title: 'Tiger King',
+            description:
+              'An exploration of big cat breeding and its bizarre underworld, populated by eccentric characters.',
+            genre: 'documentaries',
+            maturity: '18',
+            slug: 'tiger-king',
+          },
+        ],
+      },
+    ],
+  }),
 }));
