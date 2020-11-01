@@ -53,5 +53,6 @@ const firebase = {
       photoURL: 1,
       email: 'bartman@gmail.com',
     },
+    signOut: jest.fn(() => Promise.resolve('I am signed out!')),
   })),
 };
