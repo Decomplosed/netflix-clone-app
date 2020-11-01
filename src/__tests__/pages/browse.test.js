@@ -67,7 +67,9 @@ describe('<Browse />', () => {
   it('Renders the browse page with <SelectProfileContainer />', async () => {
     const { getByTestId, getByPlaceholderText, queryByTestId } = render(
       <Router>
-        <FirebaseContext.Provider></FirebaseContext.Provider>
+        <FirebaseContext.Provider
+          value={{ firebase }}
+        ></FirebaseContext.Provider>
       </Router>,
     );
   });
