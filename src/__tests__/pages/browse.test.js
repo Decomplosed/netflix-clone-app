@@ -65,11 +65,6 @@ const firebase = {
 
 describe('<Browse />', () => {
   it('Renders the browse page with <SelectProfileContainer />', () => {
-    const {
-      getByTestId,
-      getByPlaceholderText,
-      queryByTestId,
-      debug,
-    } = render();
+    const { getByTestId, getByPlaceholderText, queryByTestId } = render();
   });
 });
