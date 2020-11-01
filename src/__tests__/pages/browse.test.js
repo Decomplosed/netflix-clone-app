@@ -45,3 +45,5 @@ jest.mock('../../utils', () => ({
     ],
   }),
 }));
+
+const firebase = {}
